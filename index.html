@@ -141,6 +141,15 @@ table tr:hover{background:#f8fafc}
 <!-- ========== ÖZET / DASHBOARD ========== -->
 <div class="panel active" id="panel-ozet">
   <div class="dash-stat-row" id="dashStats"></div>
+  <!-- Faiz Hesaplama -->
+  <div class="card" style="margin-bottom:14px">
+    <h3>Banka Bakiye & Faiz Geliri (İsteğe Bağlı)</h3>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end">
+      <div style="display:flex;flex-direction:column;gap:3px"><label style="font-size:11px;font-weight:600;color:#374151">Bankadaki Bakiye (TL)</label><input type="text" id="inBakiye" style="width:170px;padding:6px 10px;border:1.5px solid #d1d5db;border-radius:5px;font-size:13px;font-weight:600" placeholder="0" onchange="saveFaiz();renderDash()"></div>
+      <div style="display:flex;flex-direction:column;gap:3px"><label style="font-size:11px;font-weight:600;color:#374151">Yıllık Faiz Oranı (%)</label><input type="text" id="inFaizOran" style="width:120px;padding:6px 10px;border:1.5px solid #d1d5db;border-radius:5px;font-size:13px;font-weight:600" placeholder="45" onchange="saveFaiz();renderDash()"></div>
+      <div id="faizSonuc" style="display:flex;gap:14px;flex-wrap:wrap;margin-left:8px"></div>
+    </div>
+  </div>
   <div class="dash-grid">
     <div class="card"><h3>Aylık Gelir — Gider Karşılaştırması</h3><canvas id="chartBar" height="260"></canvas></div>
     <div class="card"><h3>Site Gider Dağılımı (Yıllık)</h3><canvas id="chartPie" height="260"></canvas><div class="legend" id="pieLegend"></div></div>
@@ -282,6 +291,7 @@ async function init(){
   if(!db.site_info.banka) db.site_info.banka='QNB FİNANSBANK';
   if(!db.site_info.iban_no) db.site_info.iban_no='TR61 0011 1000 0000 0081 9966 14';
   if(!db.site_info.hesap_sahibi) db.site_info.hesap_sahibi='HESAP SAHİBİ; SABIR SİTESİ C-D-E BLOKLARI YÖNETİCİLİĞİ';
+  if(!db.faiz) db.faiz={bakiye:0,oran:0};
   const sel=document.getElementById('monthSel');
   const ms=Object.keys(db.months);
   ms.forEach(m=>{const o=document.createElement('option');o.value=m;o.textContent=m;sel.appendChild(o)});
@@ -314,6 +324,7 @@ function loadUI(){
   else{const ns=recs.filter(r=>r.flat!=='C/18');giders=ns.length>0&&ns[0].gider>0?[{name:'Gider',amount:ns[0].gider}]:[{name:'Gider',amount:400}]}
   renderGiders();
   if(recs.length>0){document.getElementById('inYakit').value=recs.reduce((s,r)=>s+(r.yakit||0),0);document.getElementById('inGenel').value=recs.reduce((s,r)=>s+(r.genel||0),0)}
+  loadFaiz();
   // Banka bilgileri
   const si=db.site_info||{};
   document.getElementById('inHesapSahibi').value=si.hesap_sahibi||'';
@@ -329,9 +340,34 @@ function saveBanka(){
   renderMak();
 }
 
+/* ===== FAİZ ===== */
+function loadFaiz(){
+  const f=db.faiz||{};
+  document.getElementById('inBakiye').value=f.bakiye||'';
+  document.getElementById('inFaizOran').value=f.oran||'';
+}
+function saveFaiz(){
+  if(!db.faiz)db.faiz={};
+  db.faiz.bakiye=parseFloat(document.getElementById('inBakiye').value.replace(',','.'))||0;
+  db.faiz.oran=parseFloat(document.getElementById('inFaizOran').value.replace(',','.'))||0;
+}
+function renderFaiz(){
+  const f=db.faiz||{};
+  const bakiye=f.bakiye||0, oran=f.oran||0;
+  const el=document.getElementById('faizSonuc');
+  if(!bakiye||!oran){el.innerHTML='';return}
+  const gunluk=bakiye*oran/100/365;
+  const aylik=bakiye*oran/100/12;
+  const yillik=bakiye*oran/100;
+  el.innerHTML=`
+    <div class="summary-item" style="background:#eff6ff;border-color:#bfdbfe"><div class="s-label">Günlük Faiz</div><div class="s-val" style="color:#2563eb">${fm(gunluk)}</div></div>
+    <div class="summary-item" style="background:#eff6ff;border-color:#bfdbfe"><div class="s-label">Aylık Faiz</div><div class="s-val" style="color:#2563eb">${fm(aylik)}</div></div>
+    <div class="summary-item" style="background:#eff6ff;border-color:#bfdbfe"><div class="s-label">Yıllık Faiz</div><div class="s-val" style="color:#2563eb">${fm(yillik)}</div></div>
+    <div class="summary-item" style="background:#f0fdf4;border-color:#bbf7d0"><div class="s-label">1 Yıl Sonra Toplam</div><div class="s-val" style="color:#059669">${fm(bakiye+yillik)}</div></div>`;
+}
+
 /* ===== DASHBOARD ===== */
 function renderDash(){
-  // Stats
   const ms=Object.keys(db.months);
   let yGelir=0,ySiteGider=0;
   ms.forEach(m=>{
@@ -341,13 +377,23 @@ function renderDash(){
   const curRecs=db.months[curMonth]||[];
   const curGelir=curRecs.reduce((s,r)=>s+(r.toplam||0),0);
   const curSG=(db.siteGiderleri[curMonth]||[]).reduce((s,g)=>s+(g.tutar||0),0);
-  document.getElementById('dashStats').innerHTML=`
+
+  const f=db.faiz||{};
+  const bakiye=f.bakiye||0, oran=f.oran||0;
+  const gunlukFaiz=bakiye&&oran?bakiye*oran/100/365:0;
+
+  let statsHtml=`
     <div class="dash-stat green"><div class="ds-label">Bu Ay Gelir (Aidat)</div><div class="ds-val">${fmShort(curGelir)}</div></div>
     <div class="dash-stat red"><div class="ds-label">Bu Ay Site Gideri</div><div class="ds-val">${fmShort(curSG)}</div></div>
     <div class="dash-stat"><div class="ds-label">Yıllık Toplam Gelir</div><div class="ds-val">${fmShort(yGelir)}</div></div>
     <div class="dash-stat amber"><div class="ds-label">Yıllık Toplam Site Gideri</div><div class="ds-val">${fmShort(ySiteGider)}</div></div>`;
+  if(bakiye>0){
+    statsHtml+=`<div class="dash-stat purple"><div class="ds-label">Banka Bakiyesi</div><div class="ds-val">${fmShort(bakiye)}</div></div>`;
+    if(gunlukFaiz>0) statsHtml+=`<div class="dash-stat" style="border-left-color:#2563eb"><div class="ds-label">Günlük Faiz Geliri</div><div class="ds-val">${fm(gunlukFaiz)}</div></div>`;
+  }
+  document.getElementById('dashStats').innerHTML=statsHtml;
 
-  drawBarChart();drawPieChart();drawLineChart();drawCatTable();
+  renderFaiz();drawBarChart();drawPieChart();drawLineChart();drawCatTable();
 }
 
 function fmShort(v){
@@ -602,7 +648,7 @@ function mkR(r,mgi){const sp=r.flat==='C/18';const si=db.site_info||{};
   let rows='';rows+=`<tr><td class="fl">Yakıt Bedeli:</td><td class="fv">${fm(r.yakit)}</td></tr><tr><td class="fl">Genel:</td><td class="fv">${fm(r.genel)}</td></tr>`;if(sp)rows+=`<tr><td class="fl">Gider:</td><td class="fv">${fm(0)}</td></tr>`;else mgi.forEach(g=>{rows+=`<tr><td class="fl">${esc(g.name||'Gider')}:</td><td class="fv">${fm(g.amount)}</td></tr>`});const gT=sp?0:mgi.reduce((s,g)=>s+(g.amount||0),0),top=(r.yakit||0)+(r.genel||0)+gT;rows+=`<tr class="ftotal"><td class="fl">TOPLAM:</td><td class="fv">${fm(top)}</td></tr>`;return `<div class="receipt"><div class="r-hdr"><div class="r-hdr-left"><div class="r-site">SABIR SİTESİ<br>C-D-E BLOKLARI YÖNETİCİLİĞİ<br>Buğday Pazarı Mah. Menekşe Sk. ÇANKIRI</div></div><div class="r-hdr-right"><div class="r-seri">SERİ-A</div><div class="r-line">Seri No: <span>${r.makbuz}</span></div><div class="r-line">Tarih: <span>${r.tarih||'—'}</span></div></div></div><div class="r-title">ÖDEME MAKBUZU</div><table class="r-fees">${rows}</table><div class="r-owner"><div class="r-own-title">Daire Sahibinin:</div><div class="r-own-row"><span class="r-own-label">Adı Soyadı:</span> <b>${esc(r.name)}</b></div><div class="r-own-row"><span class="r-own-label">Blok/Daire No:</span> <b>${r.flat}</b></div></div><div class="r-footer"><div class="r-warn">SON ÖDEME TARİHİ HER AYIN 10'udur.</div><div>${esc(hesap)}</div><div class="r-iban">${esc(banka)} IBAN; ${esc(iban)}</div><div style="margin-top:2px;font-size:7.5px;color:#aaa">kuisoft.com</div></div></div>`}
 
 /* ===== EXPORT / SAVE ===== */
-async function saveAll(){if(!db.giderItems)db.giderItems={};db.giderItems[curMonth]=JSON.parse(JSON.stringify(giders));await window.api.saveData(db);toast('Kaydedildi!')}
+async function saveAll(){if(!db.giderItems)db.giderItems={};db.giderItems[curMonth]=JSON.parse(JSON.stringify(giders));saveFaiz();saveBanka();await window.api.saveData(db);toast('Kaydedildi!')}
 async function backupData(){const r=await window.api.backup();if(r&&r.success)toast('JSON Yedek: '+r.path)}
 async function backupExcel(){const r=await window.api.backupExcel();if(r&&r.success)toast('Excel Yedek: '+r.path)}
 async function dlWord(){const m=document.getElementById('makMonthFilt').value;const f=document.getElementById('makFilt').value;const r=await window.api.exportWord(m,f);if(r&&r.success)toast('Word: '+r.path)}
