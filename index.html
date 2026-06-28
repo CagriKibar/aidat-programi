@@ -232,7 +232,9 @@ table tr:hover{background:#f8fafc}
 <div class="panel" id="panel-makbuz">
   <div class="card no-print">
     <div class="filter-bar">
-      <label style="font-weight:600">Blok:</label>
+      <label style="font-weight:600">Ay:</label>
+      <select id="makMonthFilt" onchange="renderMak()"></select>
+      <label style="font-weight:600;margin-left:6px">Blok:</label>
       <select id="makFilt" onchange="renderMak()"><option value="ALL">TÜM BLOKLAR</option><option value="C">C Blok</option><option value="D">D Blok</option><option value="E">E Blok</option></select>
       <button class="btn btn-purple" onclick="window.print()">Yazdır</button>
       <button class="btn btn-red" onclick="dlPDF()">PDF İndir</button>
@@ -284,6 +286,10 @@ async function init(){
   lmf.innerHTML='<option value="ALL">TÜM AYLAR</option>';
   ms.forEach(m=>lmf.innerHTML+=`<option>${m}</option>`);
   lmf.value=curMonth;
+  // Makbuz ay filtresi
+  const mmf=document.getElementById('makMonthFilt');
+  ms.forEach(m=>mmf.innerHTML+=`<option>${m}</option>`);
+  mmf.value=curMonth;
   loadUI();renderAll();
 }
 
@@ -559,17 +565,23 @@ function saveModal(){
 function delResident(idx){const r=db.residents[idx];if(!confirm(r.name+' silinecek?'))return;db.residents.splice(idx,1);Object.values(db.months).forEach(rc=>{const fi=rc.findIndex(x=>x.flat===r.flat);if(fi!==-1)rc.splice(fi,1)});db.residents.forEach((r,i)=>r.sira=i+1);renderAll();toast(r.name+' silindi!')}
 
 /* ===== MAKBUZLAR ===== */
-function renderMak(){const recs=db.months[curMonth]||[],f=document.getElementById('makFilt').value;const area=document.getElementById('makArea');area.innerHTML='';const mgi=(db.giderItems&&db.giderItems[curMonth])||giders;recs.forEach(r=>{const res=db.residents.find(x=>x.flat===r.flat);const bl=res?res.block:'';if(f!=='ALL'&&bl!==f)return;const p=document.createElement('div');p.className='r-pair';p.innerHTML=mkR(r,mgi)+mkR(r,mgi);area.appendChild(p)})}
+function renderMak(){
+  const selMonth=document.getElementById('makMonthFilt').value;
+  const recs=db.months[selMonth]||[],f=document.getElementById('makFilt').value;
+  const area=document.getElementById('makArea');area.innerHTML='';
+  const mgi=(db.giderItems&&db.giderItems[selMonth])||giders;
+  recs.forEach(r=>{const res=db.residents.find(x=>x.flat===r.flat);const bl=res?res.block:'';if(f!=='ALL'&&bl!==f)return;const p=document.createElement('div');p.className='r-pair';p.innerHTML=mkR(r,mgi)+mkR(r,mgi);area.appendChild(p)});
+}
 function mkR(r,mgi){const sp=r.flat==='C/18';let rows='';rows+=`<tr><td class="fl">Yakıt Bedeli:</td><td class="fv">${fm(r.yakit)}</td></tr><tr><td class="fl">Genel:</td><td class="fv">${fm(r.genel)}</td></tr>`;if(sp)rows+=`<tr><td class="fl">Gider:</td><td class="fv">${fm(0)}</td></tr>`;else mgi.forEach(g=>{rows+=`<tr><td class="fl">${esc(g.name||'Gider')}:</td><td class="fv">${fm(g.amount)}</td></tr>`});const gT=sp?0:mgi.reduce((s,g)=>s+(g.amount||0),0),top=(r.yakit||0)+(r.genel||0)+gT;rows+=`<tr class="ftotal"><td class="fl">TOPLAM:</td><td class="fv">${fm(top)}</td></tr>`;return `<div class="receipt"><div class="r-hdr"><div class="r-hdr-left"><div class="r-site">SABIR SİTESİ<br>C-D-E BLOKLARI YÖNETİCİLİĞİ<br>Buğday Pazarı Mah. Menekşe Sk. ÇANKIRI</div></div><div class="r-hdr-right"><div class="r-seri">SERİ-A</div><div class="r-line">Seri No: <span>${r.makbuz}</span></div><div class="r-line">Tarih: <span>${r.tarih||'—'}</span></div></div></div><div class="r-title">ÖDEME MAKBUZU</div><table class="r-fees">${rows}</table><div class="r-owner"><div class="r-own-title">Daire Sahibinin:</div><div class="r-own-row"><span class="r-own-label">Adı Soyadı:</span> <b>${esc(r.name)}</b></div><div class="r-own-row"><span class="r-own-label">Blok/Daire No:</span> <b>${r.flat}</b></div></div><div class="r-footer"><div class="r-warn">SON ÖDEME TARİHİ HER AYIN 10'udur.</div><div>HESAP SAHİBİ; SABIR SİTESİ C-D-E BLOKLARI YÖNETİCİLİĞİ</div><div class="r-iban">QNB FİNANSBANK IBAN; TR61 0011 1000 0000 0081 9966 14</div><div style="margin-top:2px;font-size:7.5px;color:#aaa">kuisoft.com</div></div></div>`}
 
 /* ===== EXPORT / SAVE ===== */
 async function saveAll(){if(!db.giderItems)db.giderItems={};db.giderItems[curMonth]=JSON.parse(JSON.stringify(giders));await window.api.saveData(db);toast('Kaydedildi!')}
 async function backupData(){const r=await window.api.backup();if(r&&r.success)toast('JSON Yedek: '+r.path)}
 async function backupExcel(){const r=await window.api.backupExcel();if(r&&r.success)toast('Excel Yedek: '+r.path)}
-async function dlWord(){const f=document.getElementById('makFilt').value;const r=await window.api.exportWord(curMonth,f);if(r&&r.success)toast('Word: '+r.path)}
+async function dlWord(){const m=document.getElementById('makMonthFilt').value;const f=document.getElementById('makFilt').value;const r=await window.api.exportWord(m,f);if(r&&r.success)toast('Word: '+r.path)}
 async function exportExcel(){const r=await window.api.exportExcel(curMonth);if(r&&r.success)toast('Excel: '+r.path)}
 async function exportAllExcel(){const r=await window.api.exportAllExcel();if(r&&r.success)toast('Excel: '+r.path)}
-async function dlPDF(){try{const r=await window.api.printPDF(curMonth);if(r&&r.success)toast('PDF: '+r.path)}catch(e){toast('PDF için yazdır penceresinden kaydedin');window.print()}}
+async function dlPDF(){const m=document.getElementById('makMonthFilt').value;try{const r=await window.api.printPDF(m);if(r&&r.success)toast('PDF: '+r.path)}catch(e){toast('PDF için yazdır penceresinden kaydedin');window.print()}}
 
 /* ===== TABS ===== */
 document.querySelectorAll('.tab').forEach(t=>{t.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));t.classList.add('active');document.getElementById('panel-'+t.dataset.tab).classList.add('active');if(t.dataset.tab==='ozet')renderDash()})});
