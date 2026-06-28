@@ -164,6 +164,13 @@ table tr:hover{background:#f8fafc}
     <div style="margin-top:10px"><button class="btn btn-blue" onclick="calcApply()">Hesapla ve Aya Uygula</button></div>
   </div>
   <div class="card"><h3>M2 Bazlı Yakıt Dağılımı (Toplam: 5.795 m²)</h3><div class="calc-results" id="calcRes"></div><div class="summary-bar" id="sumBar"></div></div>
+  <div class="card">
+    <h3>Banka / IBAN Bilgileri (Makbuzlara Yansır)</h3>
+    <div class="form-row"><label>Hesap Sahibi:</label><input type="text" id="inHesapSahibi" style="width:360px" onchange="saveBanka()"></div>
+    <div class="form-row"><label>Banka Adı:</label><input type="text" id="inBanka" style="width:360px" onchange="saveBanka()"></div>
+    <div class="form-row"><label>IBAN:</label><input type="text" id="inIban" style="width:360px" onchange="saveBanka()"></div>
+    <div style="margin-top:6px;font-size:11px;color:#6b7280">Değişiklikler otomatik kaydedilir ve tüm makbuzlara anında yansır.</div>
+  </div>
 </div>
 
 <!-- ========== AİDAT LİSTESİ ========== -->
@@ -271,6 +278,10 @@ async function init(){
   db=await window.api.getData();
   if(!db.siteGiderleri) db.siteGiderleri={};
   if(!db.giderItems) db.giderItems={};
+  if(!db.site_info) db.site_info={};
+  if(!db.site_info.banka) db.site_info.banka='QNB FİNANSBANK';
+  if(!db.site_info.iban_no) db.site_info.iban_no='TR61 0011 1000 0000 0081 9966 14';
+  if(!db.site_info.hesap_sahibi) db.site_info.hesap_sahibi='HESAP SAHİBİ; SABIR SİTESİ C-D-E BLOKLARI YÖNETİCİLİĞİ';
   const sel=document.getElementById('monthSel');
   const ms=Object.keys(db.months);
   ms.forEach(m=>{const o=document.createElement('option');o.value=m;o.textContent=m;sel.appendChild(o)});
@@ -303,7 +314,19 @@ function loadUI(){
   else{const ns=recs.filter(r=>r.flat!=='C/18');giders=ns.length>0&&ns[0].gider>0?[{name:'Gider',amount:ns[0].gider}]:[{name:'Gider',amount:400}]}
   renderGiders();
   if(recs.length>0){document.getElementById('inYakit').value=recs.reduce((s,r)=>s+(r.yakit||0),0);document.getElementById('inGenel').value=recs.reduce((s,r)=>s+(r.genel||0),0)}
+  // Banka bilgileri
+  const si=db.site_info||{};
+  document.getElementById('inHesapSahibi').value=si.hesap_sahibi||'';
+  document.getElementById('inBanka').value=si.banka||'QNB FİNANSBANK';
+  document.getElementById('inIban').value=si.iban_no||'TR61 0011 1000 0000 0081 9966 14';
   renderCalc();
+}
+
+function saveBanka(){
+  db.site_info.hesap_sahibi=document.getElementById('inHesapSahibi').value.trim();
+  db.site_info.banka=document.getElementById('inBanka').value.trim();
+  db.site_info.iban_no=document.getElementById('inIban').value.trim();
+  renderMak();
 }
 
 /* ===== DASHBOARD ===== */
@@ -572,7 +595,11 @@ function renderMak(){
   const mgi=(db.giderItems&&db.giderItems[selMonth])||giders;
   recs.forEach(r=>{const res=db.residents.find(x=>x.flat===r.flat);const bl=res?res.block:'';if(f!=='ALL'&&bl!==f)return;const p=document.createElement('div');p.className='r-pair';p.innerHTML=mkR(r,mgi)+mkR(r,mgi);area.appendChild(p)});
 }
-function mkR(r,mgi){const sp=r.flat==='C/18';let rows='';rows+=`<tr><td class="fl">Yakıt Bedeli:</td><td class="fv">${fm(r.yakit)}</td></tr><tr><td class="fl">Genel:</td><td class="fv">${fm(r.genel)}</td></tr>`;if(sp)rows+=`<tr><td class="fl">Gider:</td><td class="fv">${fm(0)}</td></tr>`;else mgi.forEach(g=>{rows+=`<tr><td class="fl">${esc(g.name||'Gider')}:</td><td class="fv">${fm(g.amount)}</td></tr>`});const gT=sp?0:mgi.reduce((s,g)=>s+(g.amount||0),0),top=(r.yakit||0)+(r.genel||0)+gT;rows+=`<tr class="ftotal"><td class="fl">TOPLAM:</td><td class="fv">${fm(top)}</td></tr>`;return `<div class="receipt"><div class="r-hdr"><div class="r-hdr-left"><div class="r-site">SABIR SİTESİ<br>C-D-E BLOKLARI YÖNETİCİLİĞİ<br>Buğday Pazarı Mah. Menekşe Sk. ÇANKIRI</div></div><div class="r-hdr-right"><div class="r-seri">SERİ-A</div><div class="r-line">Seri No: <span>${r.makbuz}</span></div><div class="r-line">Tarih: <span>${r.tarih||'—'}</span></div></div></div><div class="r-title">ÖDEME MAKBUZU</div><table class="r-fees">${rows}</table><div class="r-owner"><div class="r-own-title">Daire Sahibinin:</div><div class="r-own-row"><span class="r-own-label">Adı Soyadı:</span> <b>${esc(r.name)}</b></div><div class="r-own-row"><span class="r-own-label">Blok/Daire No:</span> <b>${r.flat}</b></div></div><div class="r-footer"><div class="r-warn">SON ÖDEME TARİHİ HER AYIN 10'udur.</div><div>HESAP SAHİBİ; SABIR SİTESİ C-D-E BLOKLARI YÖNETİCİLİĞİ</div><div class="r-iban">QNB FİNANSBANK IBAN; TR61 0011 1000 0000 0081 9966 14</div><div style="margin-top:2px;font-size:7.5px;color:#aaa">kuisoft.com</div></div></div>`}
+function mkR(r,mgi){const sp=r.flat==='C/18';const si=db.site_info||{};
+  const hesap=si.hesap_sahibi||'HESAP SAHİBİ; SABIR SİTESİ C-D-E BLOKLARI YÖNETİCİLİĞİ';
+  const banka=si.banka||'QNB FİNANSBANK';
+  const iban=si.iban_no||'TR61 0011 1000 0000 0081 9966 14';
+  let rows='';rows+=`<tr><td class="fl">Yakıt Bedeli:</td><td class="fv">${fm(r.yakit)}</td></tr><tr><td class="fl">Genel:</td><td class="fv">${fm(r.genel)}</td></tr>`;if(sp)rows+=`<tr><td class="fl">Gider:</td><td class="fv">${fm(0)}</td></tr>`;else mgi.forEach(g=>{rows+=`<tr><td class="fl">${esc(g.name||'Gider')}:</td><td class="fv">${fm(g.amount)}</td></tr>`});const gT=sp?0:mgi.reduce((s,g)=>s+(g.amount||0),0),top=(r.yakit||0)+(r.genel||0)+gT;rows+=`<tr class="ftotal"><td class="fl">TOPLAM:</td><td class="fv">${fm(top)}</td></tr>`;return `<div class="receipt"><div class="r-hdr"><div class="r-hdr-left"><div class="r-site">SABIR SİTESİ<br>C-D-E BLOKLARI YÖNETİCİLİĞİ<br>Buğday Pazarı Mah. Menekşe Sk. ÇANKIRI</div></div><div class="r-hdr-right"><div class="r-seri">SERİ-A</div><div class="r-line">Seri No: <span>${r.makbuz}</span></div><div class="r-line">Tarih: <span>${r.tarih||'—'}</span></div></div></div><div class="r-title">ÖDEME MAKBUZU</div><table class="r-fees">${rows}</table><div class="r-owner"><div class="r-own-title">Daire Sahibinin:</div><div class="r-own-row"><span class="r-own-label">Adı Soyadı:</span> <b>${esc(r.name)}</b></div><div class="r-own-row"><span class="r-own-label">Blok/Daire No:</span> <b>${r.flat}</b></div></div><div class="r-footer"><div class="r-warn">SON ÖDEME TARİHİ HER AYIN 10'udur.</div><div>${esc(hesap)}</div><div class="r-iban">${esc(banka)} IBAN; ${esc(iban)}</div><div style="margin-top:2px;font-size:7.5px;color:#aaa">kuisoft.com</div></div></div>`}
 
 /* ===== EXPORT / SAVE ===== */
 async function saveAll(){if(!db.giderItems)db.giderItems={};db.giderItems[curMonth]=JSON.parse(JSON.stringify(giders));await window.api.saveData(db);toast('Kaydedildi!')}

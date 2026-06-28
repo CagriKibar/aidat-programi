@@ -115,7 +115,7 @@ function buildDefaultDB() {
       tarih:"", makbuz: mIdx * residents.length + (i + 1)
     }));
   });
-  return { site_info:{name:"SABIR SİTESİ C-D-E BLOKLARI YÖNETİCİLİĞİ",address:"Buğday Pazarı Mah. Menekşe Sk. ÇANKIRI",seri:"SERİ-A",iban:"QNB FİNANSBANK IBAN; TR61 0011 1000 0000 0081 9966 14",note:"SON ÖDEME TARİHİ HER AYIN 10'udur.",hesap_sahibi:"HESAP SAHİBİ; SABIR SİTESİ C-D-E BLOKLARI YÖNETİCİLİĞİ"}, residents, months, giderItems:{} };
+  return { site_info:{name:"SABIR SİTESİ C-D-E BLOKLARI YÖNETİCİLİĞİ",address:"Buğday Pazarı Mah. Menekşe Sk. ÇANKIRI",seri:"SERİ-A",banka:"QNB FİNANSBANK",iban_no:"TR61 0011 1000 0000 0081 9966 14",note:"SON ÖDEME TARİHİ HER AYIN 10'udur.",hesap_sahibi:"HESAP SAHİBİ; SABIR SİTESİ C-D-E BLOKLARI YÖNETİCİLİĞİ"}, residents, months, giderItems:{} };
 }
 
 function createWindow() {
@@ -303,10 +303,10 @@ ipcMain.handle('export-word', async (_, monthName, blockFilter) => {
         new TextRun({text:"SON ÖDEME TARİHİ HER AYIN 10'udur.", font:'Calibri', size:20, bold:true, underline:{}, color:'CC0000'})
       ]}),
       new Paragraph({ alignment:AlignmentType.CENTER, spacing:{after:0}, children:[
-        new TextRun({text:'HESAP SAHİBİ; SABIR SİTESİ C-D-E BLOKLARI YÖNETİCİLİĞİ', font:'Calibri', size:18})
+        new TextRun({text: (db.site_info && db.site_info.hesap_sahibi) || 'HESAP SAHİBİ; SABIR SİTESİ C-D-E BLOKLARI YÖNETİCİLİĞİ', font:'Calibri', size:18})
       ]}),
       new Paragraph({ alignment:AlignmentType.CENTER, spacing:{after:0}, children:[
-        new TextRun({text:'QNB FİNANSBANK IBAN; TR61 0011 1000 0000 0081 9966 14', font:'Calibri', size:18, bold:true})
+        new TextRun({text: ((db.site_info && db.site_info.banka) || 'QNB FİNANSBANK') + ' IBAN; ' + ((db.site_info && db.site_info.iban_no) || 'TR61 0011 1000 0000 0081 9966 14'), font:'Calibri', size:18, bold:true})
       ]}),
       new Paragraph({ alignment:AlignmentType.CENTER, spacing:{after:40}, children:[
         new TextRun({text:'kuisoft.com', font:'Calibri', size:14, color:'AAAAAA'})
