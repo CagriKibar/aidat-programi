@@ -1,0 +1,80 @@
+{
+  "name": "aidat-programi",
+  "version": "1.0.0",
+  "description": "Sabır Sitesi C-D-E Blokları Aidat Yönetim Programı - kuisoft.com",
+  "main": "main.js",
+  "author": "kuisoft.com",
+  "license": "ISC",
+  "type": "commonjs",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win",
+    "build:portable": "electron-builder --win portable"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CagriKibar/aidat-programi.git"
+  },
+  "build": {
+    "appId": "com.kuisoft.aidat",
+    "productName": "Aidat Yönetim",
+    "copyright": "Copyright © 2025-2026 kuisoft.com",
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "CagriKibar",
+        "repo": "aidat-programi"
+      }
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html",
+      "aidat_database.json",
+      "node_modules/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "aidat_database.json",
+        "to": "aidat_database.json"
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "installerHeaderIcon": "icon.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Aidat Yönetim",
+      "installerLanguages": [
+        "tr_TR"
+      ],
+      "language": "1055"
+    }
+  },
+  "devDependencies": {
+    "electron": "^33.4.11",
+    "electron-builder": "^26.15.3"
+  },
+  "dependencies": {
+    "docx": "^9.7.1",
+    "electron-updater": "^6.8.9",
+    "xlsx": "^0.18.5"
+  }
+}

@@ -1,0 +1,7575 @@
+{
+  "site_info": {
+    "name": "SABIR SİTESİ C-D-E BLOKLARI YÖNETİCİLİĞİ",
+    "address": "Buğday Pazarı Mah. Menekşe Sk. ÇANKIRI",
+    "seri": "SERİ-A",
+    "iban": "QNB FİNANSBANK IBAN: TR61 0011 1000 0000 0081 9966 14",
+    "note": "SON ÖDEME TARİHİ HER AYIN 10'udur.",
+    "hesap_sahibi": "HESAP SAHİBİ: SABIR SİTESİ C-D-E BLOKLARI YÖNETİCİLİĞİ"
+  },
+  "residents": [
+    {
+      "sira": 1,
+      "name": "AYHAN ÖZYILMAZ",
+      "flat": "C/1",
+      "block": "C",
+      "m2": 83
+    },
+    {
+      "sira": 2,
+      "name": "OSMAN ÖZTÜRK",
+      "flat": "C/2",
+      "block": "C",
+      "m2": 109
+    },
+    {
+      "sira": 3,
+      "name": "FEYZULLAH YALÇIN",
+      "flat": "C/3",
+      "block": "C",
+      "m2": 109
+    },
+    {
+      "sira": 4,
+      "name": "İSMAİL ÇAĞLAR",
+      "flat": "C/4",
+      "block": "C",
+      "m2": 109
+    },
+    {
+      "sira": 5,
+      "name": "ARİF KARA",
+      "flat": "C/5",
+      "block": "C",
+      "m2": 109
+    },
+    {
+      "sira": 6,
+      "name": "EMRE KAYA",
+      "flat": "C/6",
+      "block": "C",
+      "m2": 109
+    },
+    {
+      "sira": 7,
+      "name": "HARUN HASANOĞLU",
+      "flat": "C/7",
+      "block": "C",
+      "m2": 113
+    },
+    {
+      "sira": 8,
+      "name": "TUNCAY DELİGÖZ",
+      "flat": "C/8",
+      "block": "C",
+      "m2": 113
+    },
+    {
+      "sira": 9,
+      "name": "ŞEYDA NUR ÖZDEMİR",
+      "flat": "C/9",
+      "block": "C",
+      "m2": 109
+    },
+    {
+      "sira": 10,
+      "name": "MUSTAFA KAÇAR",
+      "flat": "C/10",
+      "block": "C",
+      "m2": 113
+    },
+    {
+      "sira": 11,
+      "name": "MEHMET KARATEPE",
+      "flat": "C/11",
+      "block": "C",
+      "m2": 109
+    },
+    {
+      "sira": 12,
+      "name": "YUSUF KAYA",
+      "flat": "C/12",
+      "block": "C",
+      "m2": 109
+    },
+    {
+      "sira": 13,
+      "name": "İSMAİL KELEŞ",
+      "flat": "C/13",
+      "block": "C",
+      "m2": 113
+    },
+    {
+      "sira": 14,
+      "name": "MEHMET YILDIRIM",
+      "flat": "C/14",
+      "block": "C",
+      "m2": 109
+    },
+    {
+      "sira": 15,
+      "name": "FERHAT OKÇU",
+      "flat": "C/15",
+      "block": "C",
+      "m2": 109
+    },
+    {
+      "sira": 16,
+      "name": "İSA GÜRAY",
+      "flat": "C/16",
+      "block": "C",
+      "m2": 113
+    },
+    {
+      "sira": 17,
+      "name": "SATILMIŞ GÖKBAYIR",
+      "flat": "C/17",
+      "block": "C",
+      "m2": 109
+    },
+    {
+      "sira": 18,
+      "name": "HASAN AYAN",
+      "flat": "C/18",
+      "block": "C",
+      "m2": 83
+    },
+    {
+      "sira": 19,
+      "name": "KANAN KİBAR",
+      "flat": "D/1",
+      "block": "D",
+      "m2": 83
+    },
+    {
+      "sira": 20,
+      "name": "İRFAN AKBAŞ",
+      "flat": "D/2",
+      "block": "D",
+      "m2": 83
+    },
+    {
+      "sira": 21,
+      "name": "MURAT YEŞİLKAYA",
+      "flat": "D/3",
+      "block": "D",
+      "m2": 109
+    },
+    {
+      "sira": 22,
+      "name": "HASAN ÇAPAR",
+      "flat": "D/4",
+      "block": "D",
+      "m2": 109
+    },
+    {
+      "sira": 23,
+      "name": "SATI DURMUŞ",
+      "flat": "D/5",
+      "block": "D",
+      "m2": 109
+    },
+    {
+      "sira": 24,
+      "name": "CÜNEYT GÜL",
+      "flat": "D/6",
+      "block": "D",
+      "m2": 109
+    },
+    {
+      "sira": 25,
+      "name": "BİLAL YALÇIN",
+      "flat": "D/7",
+      "block": "D",
+      "m2": 109
+    },
+    {
+      "sira": 26,
+      "name": "SATILMIŞ YETİŞ",
+      "flat": "D/8",
+      "block": "D",
+      "m2": 109
+    },
+    {
+      "sira": 27,
+      "name": "SİNAN ARAL",
+      "flat": "D/9",
+      "block": "D",
+      "m2": 109
+    },
+    {
+      "sira": 28,
+      "name": "MUSTAFA ARMAĞAN",
+      "flat": "D/10",
+      "block": "D",
+      "m2": 109
+    },
+    {
+      "sira": 29,
+      "name": "GÜLENDER KELEŞ",
+      "flat": "D/11",
+      "block": "D",
+      "m2": 109
+    },
+    {
+      "sira": 30,
+      "name": "İBRAHİM ÇAPAR",
+      "flat": "D/12",
+      "block": "D",
+      "m2": 109
+    },
+    {
+      "sira": 31,
+      "name": "SERVET DERVİŞ",
+      "flat": "D/13",
+      "block": "D",
+      "m2": 109
+    },
+    {
+      "sira": 32,
+      "name": "KERİM COŞKUN",
+      "flat": "D/14",
+      "block": "D",
+      "m2": 109
+    },
+    {
+      "sira": 33,
+      "name": "ASLAN DİRİCAN",
+      "flat": "D/15",
+      "block": "D",
+      "m2": 109
+    },
+    {
+      "sira": 34,
+      "name": "ŞABAN AKGÜNDÜZ",
+      "flat": "D/16",
+      "block": "D",
+      "m2": 109
+    },
+    {
+      "sira": 35,
+      "name": "HİKMET SANCAR",
+      "flat": "D/17",
+      "block": "D",
+      "m2": 109
+    },
+    {
+      "sira": 36,
+      "name": "TECELLİ KURTOĞLU",
+      "flat": "D/18",
+      "block": "D",
+      "m2": 109
+    },
+    {
+      "sira": 37,
+      "name": "SEVCAN ASAR",
+      "flat": "D/11-A",
+      "block": "D",
+      "m2": 29
+    },
+    {
+      "sira": 38,
+      "name": "FAZLI AKYILDIZ",
+      "flat": "E/1",
+      "block": "E",
+      "m2": 83
+    },
+    {
+      "sira": 39,
+      "name": "NEFİSE VAZVAZ",
+      "flat": "E/2",
+      "block": "E",
+      "m2": 83
+    },
+    {
+      "sira": 40,
+      "name": "FAHRETTİN GÜVENDİ",
+      "flat": "E/3",
+      "block": "E",
+      "m2": 113
+    },
+    {
+      "sira": 41,
+      "name": "MURAT AÇIKGÖZ",
+      "flat": "E/4",
+      "block": "E",
+      "m2": 109
+    },
+    {
+      "sira": 42,
+      "name": "AHMET YALÇIN",
+      "flat": "E/5",
+      "block": "E",
+      "m2": 109
+    },
+    {
+      "sira": 43,
+      "name": "İBRAHİM ÖDEMİŞ",
+      "flat": "E/6",
+      "block": "E",
+      "m2": 109
+    },
+    {
+      "sira": 44,
+      "name": "ALİ ÖZYILMAZ",
+      "flat": "E/7",
+      "block": "E",
+      "m2": 109
+    },
+    {
+      "sira": 45,
+      "name": "HÜSEYİN KANDEMİR",
+      "flat": "E/8",
+      "block": "E",
+      "m2": 109
+    },
+    {
+      "sira": 46,
+      "name": "HÜSEYİN AKYILDIZ",
+      "flat": "E/9",
+      "block": "E",
+      "m2": 113
+    },
+    {
+      "sira": 47,
+      "name": "MUSTAFA KARALI",
+      "flat": "E/10",
+      "block": "E",
+      "m2": 113
+    },
+    {
+      "sira": 48,
+      "name": "İSMAİL KULA",
+      "flat": "E/11",
+      "block": "E",
+      "m2": 109
+    },
+    {
+      "sira": 49,
+      "name": "YAKUP KARTAL",
+      "flat": "E/12",
+      "block": "E",
+      "m2": 109
+    },
+    {
+      "sira": 50,
+      "name": "YÜKSEL ÖKSÜZ",
+      "flat": "E/13",
+      "block": "E",
+      "m2": 109
+    },
+    {
+      "sira": 51,
+      "name": "MUHİTTİN ÇAPAR",
+      "flat": "E/14",
+      "block": "E",
+      "m2": 109
+    },
+    {
+      "sira": 52,
+      "name": "EMİNE DEMİRÖZ",
+      "flat": "E/15",
+      "block": "E",
+      "m2": 113
+    },
+    {
+      "sira": 53,
+      "name": "İBRAHİM UÇAR",
+      "flat": "E/16",
+      "block": "E",
+      "m2": 109
+    },
+    {
+      "sira": 54,
+      "name": "MESUT MEMİŞ",
+      "flat": "E/17",
+      "block": "E",
+      "m2": 113
+    },
+    {
+      "sira": 55,
+      "name": "SATILMIŞ HOTOĞLU",
+      "flat": "E/18",
+      "block": "E",
+      "m2": 109
+    }
+  ],
+  "months": {
+    "TEMMUZ 2025": [
+      {
+        "flat": "C/1",
+        "name": "AYHAN ÖZYILMAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 1
+      },
+      {
+        "flat": "C/2",
+        "name": "OSMAN ÖZTÜRK",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 2
+      },
+      {
+        "flat": "C/3",
+        "name": "FEYZULLAH YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 3
+      },
+      {
+        "flat": "C/4",
+        "name": "İSMAİL ÇAĞLAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 4
+      },
+      {
+        "flat": "C/5",
+        "name": "ARİF KARA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 5
+      },
+      {
+        "flat": "C/6",
+        "name": "EMRE KAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 6
+      },
+      {
+        "flat": "C/7",
+        "name": "HARUN HASANOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 7
+      },
+      {
+        "flat": "C/8",
+        "name": "TUNCAY DELİGÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 8
+      },
+      {
+        "flat": "C/9",
+        "name": "SALÇUK KÖMÜR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 9
+      },
+      {
+        "flat": "C/10",
+        "name": "MUSTAFA KAÇAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 10
+      },
+      {
+        "flat": "C/11",
+        "name": "MEHMET KARATEPE",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 11
+      },
+      {
+        "flat": "C/12",
+        "name": "YUSUF KAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 12
+      },
+      {
+        "flat": "C/13",
+        "name": "İSMAİL KELEŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 13
+      },
+      {
+        "flat": "C/14",
+        "name": "MEHMET YILDIRIM",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 14
+      },
+      {
+        "flat": "C/15",
+        "name": "FERHAT OKÇU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 15
+      },
+      {
+        "flat": "C/16",
+        "name": "İSA GÜRAY",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 16
+      },
+      {
+        "flat": "C/17",
+        "name": "SATILMIŞ GÖKBAYIR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 17
+      },
+      {
+        "flat": "C/18",
+        "name": "HASAN AYAN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 0,
+        "toplam": 0,
+        "tarih": "10.07.2025",
+        "makbuz": 18
+      },
+      {
+        "flat": "D/1",
+        "name": "KANAN KİBAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 19
+      },
+      {
+        "flat": "D/2",
+        "name": "İRFAN AKBAŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 20
+      },
+      {
+        "flat": "D/3",
+        "name": "MURAT YEŞİLKAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 21
+      },
+      {
+        "flat": "D/4",
+        "name": "HASAN ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 22
+      },
+      {
+        "flat": "D/5",
+        "name": "SATI DURMUŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 23
+      },
+      {
+        "flat": "D/6",
+        "name": "CÜNEYT GÜL",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 24
+      },
+      {
+        "flat": "D/7",
+        "name": "BİLAL YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 25
+      },
+      {
+        "flat": "D/8",
+        "name": "SATILMIŞ YETİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 26
+      },
+      {
+        "flat": "D/9",
+        "name": "ZELİHA ALTUN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 27
+      },
+      {
+        "flat": "D/10",
+        "name": "MUSTAFA ARMAĞAN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 28
+      },
+      {
+        "flat": "D/11",
+        "name": "GÜLENDER KELEŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 29
+      },
+      {
+        "flat": "D/12",
+        "name": "İBRAHİM ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 30
+      },
+      {
+        "flat": "D/13",
+        "name": "SERVET DERVİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 31
+      },
+      {
+        "flat": "D/14",
+        "name": "KERİM COŞKUN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 32
+      },
+      {
+        "flat": "D/15",
+        "name": "EMİN SOYUPEK",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 33
+      },
+      {
+        "flat": "D/16",
+        "name": "ŞABAN AKGÜNDÜZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 34
+      },
+      {
+        "flat": "D/17",
+        "name": "HİKMET SANCAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 35
+      },
+      {
+        "flat": "D/18",
+        "name": "TECELLİ KURTOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 36
+      },
+      {
+        "flat": "D/11-A",
+        "name": "SEVCAN ARAS",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 37
+      },
+      {
+        "flat": "E/1",
+        "name": "FAZLI AKYILDIZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 38
+      },
+      {
+        "flat": "E/2",
+        "name": "NEFİSE VAZVAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 39
+      },
+      {
+        "flat": "E/3",
+        "name": "FAHRETTİN GÜVENDİ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 40
+      },
+      {
+        "flat": "E/4",
+        "name": "MURAT AÇIKGÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 41
+      },
+      {
+        "flat": "E/5",
+        "name": "AHMET YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 42
+      },
+      {
+        "flat": "E/6",
+        "name": "İBRAHİM ÖDEMİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 43
+      },
+      {
+        "flat": "E/7",
+        "name": "ALİ ÖZYILMAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 44
+      },
+      {
+        "flat": "E/8",
+        "name": "HÜSEYİN KANDEMİR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 45
+      },
+      {
+        "flat": "E/9",
+        "name": "HÜSEYİN AKYILDIZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 46
+      },
+      {
+        "flat": "E/10",
+        "name": "MUSTAFA KARALI",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 47
+      },
+      {
+        "flat": "E/11",
+        "name": "İSMAİL KULA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 48
+      },
+      {
+        "flat": "E/12",
+        "name": "YAKUP KARTAL",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 49
+      },
+      {
+        "flat": "E/13",
+        "name": "YÜKSEL ÖKSÜZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 50
+      },
+      {
+        "flat": "E/14",
+        "name": "MUHİTTİN ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 51
+      },
+      {
+        "flat": "E/15",
+        "name": "EMİNE DEMİRÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 52
+      },
+      {
+        "flat": "E/16",
+        "name": "İBRAHİM UÇAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 53
+      },
+      {
+        "flat": "E/17",
+        "name": "MESUT MEMİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 54
+      },
+      {
+        "flat": "E/18",
+        "name": "SATILMIŞ HOTOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.07.2025",
+        "makbuz": 55
+      }
+    ],
+    "AĞUSTOS 2025": [
+      {
+        "flat": "C/1",
+        "name": "AYHAN ÖZYILMAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 56
+      },
+      {
+        "flat": "C/2",
+        "name": "OSMAN ÖZTÜRK",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 57
+      },
+      {
+        "flat": "C/3",
+        "name": "FEYZULLAH YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 58
+      },
+      {
+        "flat": "C/4",
+        "name": "İSMAİL ÇAĞLAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 59
+      },
+      {
+        "flat": "C/5",
+        "name": "ARİF KARA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 60
+      },
+      {
+        "flat": "C/6",
+        "name": "EMRE KAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 61
+      },
+      {
+        "flat": "C/7",
+        "name": "HARUN HASANOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 62
+      },
+      {
+        "flat": "C/8",
+        "name": "TUNCAY DELİGÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 63
+      },
+      {
+        "flat": "C/9",
+        "name": "SALÇUK KÖMÜR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 64
+      },
+      {
+        "flat": "C/10",
+        "name": "MUSTAFA KAÇAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 65
+      },
+      {
+        "flat": "C/11",
+        "name": "MEHMET KARATEPE",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 66
+      },
+      {
+        "flat": "C/12",
+        "name": "YUSUF KAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 67
+      },
+      {
+        "flat": "C/13",
+        "name": "İSMAİL KELEŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 68
+      },
+      {
+        "flat": "C/14",
+        "name": "MEHMET YILDIRIM",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 69
+      },
+      {
+        "flat": "C/15",
+        "name": "FERHAT OKÇU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 70
+      },
+      {
+        "flat": "C/16",
+        "name": "İSA GÜRAY",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 71
+      },
+      {
+        "flat": "C/17",
+        "name": "SATILMIŞ GÖKBAYIR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 72
+      },
+      {
+        "flat": "C/18",
+        "name": "HASAN AYAN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 0,
+        "toplam": 0,
+        "tarih": "10.08.2025",
+        "makbuz": 73
+      },
+      {
+        "flat": "D/1",
+        "name": "KANAN KİBAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 74
+      },
+      {
+        "flat": "D/2",
+        "name": "İRFAN AKBAŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 75
+      },
+      {
+        "flat": "D/3",
+        "name": "MURAT YEŞİLKAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 76
+      },
+      {
+        "flat": "D/4",
+        "name": "HASAN ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 77
+      },
+      {
+        "flat": "D/5",
+        "name": "SATI DURMUŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 78
+      },
+      {
+        "flat": "D/6",
+        "name": "CÜNEYT GÜL",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 79
+      },
+      {
+        "flat": "D/7",
+        "name": "BİLAL YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 80
+      },
+      {
+        "flat": "D/8",
+        "name": "SATILMIŞ YETİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 81
+      },
+      {
+        "flat": "D/9",
+        "name": "ZELİHA ALTUN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 82
+      },
+      {
+        "flat": "D/10",
+        "name": "MUSTAFA ARMAĞAN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 83
+      },
+      {
+        "flat": "D/11",
+        "name": "GÜLENDER KELEŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 84
+      },
+      {
+        "flat": "D/12",
+        "name": "İBRAHİM ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 85
+      },
+      {
+        "flat": "D/13",
+        "name": "SERVET DERVİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 86
+      },
+      {
+        "flat": "D/14",
+        "name": "KERİM COŞKUN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 87
+      },
+      {
+        "flat": "D/15",
+        "name": "EMİN SOYUPEK",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 88
+      },
+      {
+        "flat": "D/16",
+        "name": "ŞABAN AKGÜNDÜZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 89
+      },
+      {
+        "flat": "D/17",
+        "name": "HİKMET SANCAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 90
+      },
+      {
+        "flat": "D/18",
+        "name": "TECELLİ KURTOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 91
+      },
+      {
+        "flat": "D/11-A",
+        "name": "SEVCAN ARAS",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 92
+      },
+      {
+        "flat": "E/1",
+        "name": "FAZLI AKYILDIZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 93
+      },
+      {
+        "flat": "E/2",
+        "name": "NEFİSE VAZVAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 94
+      },
+      {
+        "flat": "E/3",
+        "name": "FAHRETTİN GÜVENDİ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 95
+      },
+      {
+        "flat": "E/4",
+        "name": "MURAT AÇIKGÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 96
+      },
+      {
+        "flat": "E/5",
+        "name": "AHMET YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 97
+      },
+      {
+        "flat": "E/6",
+        "name": "İBRAHİM ÖDEMİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 98
+      },
+      {
+        "flat": "E/7",
+        "name": "ALİ ÖZYILMAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 99
+      },
+      {
+        "flat": "E/8",
+        "name": "HÜSEYİN KANDEMİR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 100
+      },
+      {
+        "flat": "E/9",
+        "name": "HÜSEYİN AKYILDIZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 101
+      },
+      {
+        "flat": "E/10",
+        "name": "MUSTAFA KARALI",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 102
+      },
+      {
+        "flat": "E/11",
+        "name": "İSMAİL KULA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 103
+      },
+      {
+        "flat": "E/12",
+        "name": "YAKUP KARTAL",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 104
+      },
+      {
+        "flat": "E/13",
+        "name": "YÜKSEL ÖKSÜZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 105
+      },
+      {
+        "flat": "E/14",
+        "name": "MUHİTTİN ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 106
+      },
+      {
+        "flat": "E/15",
+        "name": "EMİNE DEMİRÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 107
+      },
+      {
+        "flat": "E/16",
+        "name": "İBRAHİM UÇAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 108
+      },
+      {
+        "flat": "E/17",
+        "name": "MESUT MEMİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 109
+      },
+      {
+        "flat": "E/18",
+        "name": "SATILMIŞ HOTOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.08.2025",
+        "makbuz": 110
+      }
+    ],
+    "EYLÜL 2025": [
+      {
+        "flat": "C/1",
+        "name": "AYHAN ÖZYILMAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 111
+      },
+      {
+        "flat": "C/2",
+        "name": "OSMAN ÖZTÜRK",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 112
+      },
+      {
+        "flat": "C/3",
+        "name": "FEYZULLAH YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 113
+      },
+      {
+        "flat": "C/4",
+        "name": "İSMAİL ÇAĞLAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 114
+      },
+      {
+        "flat": "C/5",
+        "name": "ARİF KARA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 115
+      },
+      {
+        "flat": "C/6",
+        "name": "EMRE KAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 116
+      },
+      {
+        "flat": "C/7",
+        "name": "HARUN HASANOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 117
+      },
+      {
+        "flat": "C/8",
+        "name": "TUNCAY DELİGÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 118
+      },
+      {
+        "flat": "C/9",
+        "name": "SALÇUK KÖMÜR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 119
+      },
+      {
+        "flat": "C/10",
+        "name": "MUSTAFA KAÇAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 120
+      },
+      {
+        "flat": "C/11",
+        "name": "MEHMET KARATEPE",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 121
+      },
+      {
+        "flat": "C/12",
+        "name": "YUSUF KAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 122
+      },
+      {
+        "flat": "C/13",
+        "name": "İSMAİL KELEŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 123
+      },
+      {
+        "flat": "C/14",
+        "name": "MEHMET YILDIRIM",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 124
+      },
+      {
+        "flat": "C/15",
+        "name": "FERHAT OKÇU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 125
+      },
+      {
+        "flat": "C/16",
+        "name": "İSA GÜRAY",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 126
+      },
+      {
+        "flat": "C/17",
+        "name": "SATILMIŞ GÖKBAYIR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 127
+      },
+      {
+        "flat": "C/18",
+        "name": "HASAN AYAN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 0,
+        "toplam": 0,
+        "tarih": "10.09.2025",
+        "makbuz": 128
+      },
+      {
+        "flat": "D/1",
+        "name": "KANAN KİBAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 129
+      },
+      {
+        "flat": "D/2",
+        "name": "İRFAN AKBAŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 130
+      },
+      {
+        "flat": "D/3",
+        "name": "MURAT YEŞİLKAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 131
+      },
+      {
+        "flat": "D/4",
+        "name": "HASAN ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 132
+      },
+      {
+        "flat": "D/5",
+        "name": "SATI DURMUŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 133
+      },
+      {
+        "flat": "D/6",
+        "name": "CÜNEYT GÜL",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 134
+      },
+      {
+        "flat": "D/7",
+        "name": "BİLAL YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 135
+      },
+      {
+        "flat": "D/8",
+        "name": "SATILMIŞ YETİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 136
+      },
+      {
+        "flat": "D/9",
+        "name": "ZELİHA ALTUN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 137
+      },
+      {
+        "flat": "D/10",
+        "name": "MUSTAFA ARMAĞAN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 138
+      },
+      {
+        "flat": "D/11",
+        "name": "GÜLENDER KELEŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 139
+      },
+      {
+        "flat": "D/12",
+        "name": "İBRAHİM ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 140
+      },
+      {
+        "flat": "D/13",
+        "name": "SERVET DERVİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 141
+      },
+      {
+        "flat": "D/14",
+        "name": "KERİM COŞKUN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 142
+      },
+      {
+        "flat": "D/15",
+        "name": "EMİN SOYUPEK",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 143
+      },
+      {
+        "flat": "D/16",
+        "name": "ŞABAN AKGÜNDÜZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 144
+      },
+      {
+        "flat": "D/17",
+        "name": "HİKMET SANCAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 145
+      },
+      {
+        "flat": "D/18",
+        "name": "TECELLİ KURTOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 146
+      },
+      {
+        "flat": "D/11-A",
+        "name": "SEVCAN ARAS",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 147
+      },
+      {
+        "flat": "E/1",
+        "name": "FAZLI AKYILDIZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 148
+      },
+      {
+        "flat": "E/2",
+        "name": "NEFİSE VAZVAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 149
+      },
+      {
+        "flat": "E/3",
+        "name": "FAHRETTİN GÜVENDİ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 150
+      },
+      {
+        "flat": "E/4",
+        "name": "MURAT AÇIKGÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 151
+      },
+      {
+        "flat": "E/5",
+        "name": "AHMET YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 152
+      },
+      {
+        "flat": "E/6",
+        "name": "İBRAHİM ÖDEMİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 153
+      },
+      {
+        "flat": "E/7",
+        "name": "ALİ ÖZYILMAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 154
+      },
+      {
+        "flat": "E/8",
+        "name": "HÜSEYİN KANDEMİR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 155
+      },
+      {
+        "flat": "E/9",
+        "name": "HÜSEYİN AKYILDIZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 156
+      },
+      {
+        "flat": "E/10",
+        "name": "MUSTAFA KARALI",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 157
+      },
+      {
+        "flat": "E/11",
+        "name": "İSMAİL KULA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 158
+      },
+      {
+        "flat": "E/12",
+        "name": "YAKUP KARTAL",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 159
+      },
+      {
+        "flat": "E/13",
+        "name": "YÜKSEL ÖKSÜZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 160
+      },
+      {
+        "flat": "E/14",
+        "name": "MUHİTTİN ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 161
+      },
+      {
+        "flat": "E/15",
+        "name": "EMİNE DEMİRÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 162
+      },
+      {
+        "flat": "E/16",
+        "name": "İBRAHİM UÇAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 163
+      },
+      {
+        "flat": "E/17",
+        "name": "MESUT MEMİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 164
+      },
+      {
+        "flat": "E/18",
+        "name": "SATILMIŞ HOTOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.09.2025",
+        "makbuz": 165
+      }
+    ],
+    "EKİM 2025": [
+      {
+        "flat": "C/1",
+        "name": "AYHAN ÖZYILMAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 166
+      },
+      {
+        "flat": "C/2",
+        "name": "OSMAN ÖZTÜRK",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 167
+      },
+      {
+        "flat": "C/3",
+        "name": "FEYZULLAH YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 168
+      },
+      {
+        "flat": "C/4",
+        "name": "İSMAİL ÇAĞLAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 169
+      },
+      {
+        "flat": "C/5",
+        "name": "ARİF KARA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 170
+      },
+      {
+        "flat": "C/6",
+        "name": "EMRE KAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 171
+      },
+      {
+        "flat": "C/7",
+        "name": "HARUN HASANOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 172
+      },
+      {
+        "flat": "C/8",
+        "name": "TUNCAY DELİGÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 173
+      },
+      {
+        "flat": "C/9",
+        "name": "SALÇUK KÖMÜR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 174
+      },
+      {
+        "flat": "C/10",
+        "name": "MUSTAFA KAÇAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 175
+      },
+      {
+        "flat": "C/11",
+        "name": "MEHMET KARATEPE",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 176
+      },
+      {
+        "flat": "C/12",
+        "name": "YUSUF KAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 177
+      },
+      {
+        "flat": "C/13",
+        "name": "İSMAİL KELEŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 178
+      },
+      {
+        "flat": "C/14",
+        "name": "MEHMET YILDIRIM",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 179
+      },
+      {
+        "flat": "C/15",
+        "name": "FERHAT OKÇU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 180
+      },
+      {
+        "flat": "C/16",
+        "name": "İSA GÜRAY",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 181
+      },
+      {
+        "flat": "C/17",
+        "name": "SATILMIŞ GÖKBAYIR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 182
+      },
+      {
+        "flat": "C/18",
+        "name": "HASAN AYAN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 0,
+        "toplam": 0,
+        "tarih": "10.10.2025",
+        "makbuz": 183
+      },
+      {
+        "flat": "D/1",
+        "name": "KANAN KİBAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 184
+      },
+      {
+        "flat": "D/2",
+        "name": "İRFAN AKBAŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 185
+      },
+      {
+        "flat": "D/3",
+        "name": "MURAT YEŞİLKAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 186
+      },
+      {
+        "flat": "D/4",
+        "name": "HASAN ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 187
+      },
+      {
+        "flat": "D/5",
+        "name": "SATI DURMUŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 188
+      },
+      {
+        "flat": "D/6",
+        "name": "CÜNEYT GÜL",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 189
+      },
+      {
+        "flat": "D/7",
+        "name": "BİLAL YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 190
+      },
+      {
+        "flat": "D/8",
+        "name": "SATILMIŞ YETİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 191
+      },
+      {
+        "flat": "D/9",
+        "name": "ZELİHA ALTUN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 192
+      },
+      {
+        "flat": "D/10",
+        "name": "MUSTAFA ARMAĞAN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 193
+      },
+      {
+        "flat": "D/11",
+        "name": "GÜLENDER KELEŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 194
+      },
+      {
+        "flat": "D/12",
+        "name": "İBRAHİM ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 195
+      },
+      {
+        "flat": "D/13",
+        "name": "SERVET DERVİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 196
+      },
+      {
+        "flat": "D/14",
+        "name": "KERİM COŞKUN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 197
+      },
+      {
+        "flat": "D/15",
+        "name": "EMİN SOYUPEK",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 198
+      },
+      {
+        "flat": "D/16",
+        "name": "ŞABAN AKGÜNDÜZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 199
+      },
+      {
+        "flat": "D/17",
+        "name": "HİKMET SANCAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 200
+      },
+      {
+        "flat": "D/18",
+        "name": "TECELLİ KURTOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 201
+      },
+      {
+        "flat": "D/11-A",
+        "name": "SEVCAN ARAS",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 202
+      },
+      {
+        "flat": "E/1",
+        "name": "FAZLI AKYILDIZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 203
+      },
+      {
+        "flat": "E/2",
+        "name": "NEFİSE VAZVAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 204
+      },
+      {
+        "flat": "E/3",
+        "name": "FAHRETTİN GÜVENDİ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 205
+      },
+      {
+        "flat": "E/4",
+        "name": "MURAT AÇIKGÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 206
+      },
+      {
+        "flat": "E/5",
+        "name": "AHMET YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 207
+      },
+      {
+        "flat": "E/6",
+        "name": "İBRAHİM ÖDEMİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 208
+      },
+      {
+        "flat": "E/7",
+        "name": "ALİ ÖZYILMAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 209
+      },
+      {
+        "flat": "E/8",
+        "name": "HÜSEYİN KANDEMİR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 210
+      },
+      {
+        "flat": "E/9",
+        "name": "HÜSEYİN AKYILDIZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 211
+      },
+      {
+        "flat": "E/10",
+        "name": "MUSTAFA KARALI",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 212
+      },
+      {
+        "flat": "E/11",
+        "name": "İSMAİL KULA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 213
+      },
+      {
+        "flat": "E/12",
+        "name": "YAKUP KARTAL",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 214
+      },
+      {
+        "flat": "E/13",
+        "name": "YÜKSEL ÖKSÜZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 215
+      },
+      {
+        "flat": "E/14",
+        "name": "MUHİTTİN ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 216
+      },
+      {
+        "flat": "E/15",
+        "name": "EMİNE DEMİRÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 217
+      },
+      {
+        "flat": "E/16",
+        "name": "İBRAHİM UÇAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 218
+      },
+      {
+        "flat": "E/17",
+        "name": "MESUT MEMİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 219
+      },
+      {
+        "flat": "E/18",
+        "name": "SATILMIŞ HOTOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 400,
+        "tarih": "10.10.2025",
+        "makbuz": 220
+      }
+    ],
+    "kasım 2025": [
+      {
+        "flat": "C/1",
+        "name": "AYHAN ÖZYILMAZ",
+        "yakit": 575,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 975,
+        "tarih": "10.11.2025",
+        "makbuz": 221
+      },
+      {
+        "flat": "C/2",
+        "name": "OSMAN ÖZTÜRK",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 222
+      },
+      {
+        "flat": "C/3",
+        "name": "FEYZULLAH YALÇIN",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 223
+      },
+      {
+        "flat": "C/4",
+        "name": "İSMAİL ÇAĞLAR",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 224
+      },
+      {
+        "flat": "C/5",
+        "name": "ARİF KARA",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 225
+      },
+      {
+        "flat": "C/6",
+        "name": "EMRE KAYA",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 226
+      },
+      {
+        "flat": "C/7",
+        "name": "HARUN HASANOĞLU",
+        "yakit": 780,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1180,
+        "tarih": "10.11.2025",
+        "makbuz": 227
+      },
+      {
+        "flat": "C/8",
+        "name": "TUNCAY DELİGÖZ",
+        "yakit": 780,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1180,
+        "tarih": "10.11.2025",
+        "makbuz": 228
+      },
+      {
+        "flat": "C/9",
+        "name": "SALÇUK KÖMÜR",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 229
+      },
+      {
+        "flat": "C/10",
+        "name": "MUSTAFA KAÇAR",
+        "yakit": 780,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1180,
+        "tarih": "10.11.2025",
+        "makbuz": 230
+      },
+      {
+        "flat": "C/11",
+        "name": "MEHMET KARATEPE",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 231
+      },
+      {
+        "flat": "C/12",
+        "name": "YUSUF KAYA",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 232
+      },
+      {
+        "flat": "C/13",
+        "name": "İSMAİL KELEŞ",
+        "yakit": 780,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1180,
+        "tarih": "10.11.2025",
+        "makbuz": 233
+      },
+      {
+        "flat": "C/14",
+        "name": "MEHMET YILDIRIM",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 234
+      },
+      {
+        "flat": "C/15",
+        "name": "FERHAT OKÇU",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 235
+      },
+      {
+        "flat": "C/16",
+        "name": "İSA GÜRAY",
+        "yakit": 780,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1180,
+        "tarih": "10.11.2025",
+        "makbuz": 236
+      },
+      {
+        "flat": "C/17",
+        "name": "SATILMIŞ GÖKBAYIR",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 237
+      },
+      {
+        "flat": "C/18",
+        "name": "HASAN AYAN",
+        "yakit": 575,
+        "genel": 0,
+        "gider": 0,
+        "toplam": 575,
+        "tarih": "10.11.2025",
+        "makbuz": 238
+      },
+      {
+        "flat": "D/1",
+        "name": "KANAN KİBAR",
+        "yakit": 575,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 975,
+        "tarih": "10.11.2025",
+        "makbuz": 239
+      },
+      {
+        "flat": "D/2",
+        "name": "İRFAN AKBAŞ",
+        "yakit": 575,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 975,
+        "tarih": "10.11.2025",
+        "makbuz": 240
+      },
+      {
+        "flat": "D/3",
+        "name": "MURAT YEŞİLKAYA",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 241
+      },
+      {
+        "flat": "D/4",
+        "name": "HASAN ÇAPAR",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 242
+      },
+      {
+        "flat": "D/5",
+        "name": "SATI DURMUŞ",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 243
+      },
+      {
+        "flat": "D/6",
+        "name": "CÜNEYT GÜL",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 244
+      },
+      {
+        "flat": "D/7",
+        "name": "BİLAL YALÇIN",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 245
+      },
+      {
+        "flat": "D/8",
+        "name": "SATILMIŞ YETİŞ",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 246
+      },
+      {
+        "flat": "D/9",
+        "name": "ZELİHA ALTUN",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 247
+      },
+      {
+        "flat": "D/10",
+        "name": "MUSTAFA ARMAĞAN",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 248
+      },
+      {
+        "flat": "D/11",
+        "name": "GÜLENDER KELEŞ",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 249
+      },
+      {
+        "flat": "D/12",
+        "name": "İBRAHİM ÇAPAR",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 250
+      },
+      {
+        "flat": "D/13",
+        "name": "SERVET DERVİŞ",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 251
+      },
+      {
+        "flat": "D/14",
+        "name": "KERİM COŞKUN",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 252
+      },
+      {
+        "flat": "D/15",
+        "name": "EMİN SOYUPEK",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 253
+      },
+      {
+        "flat": "D/16",
+        "name": "ŞABAN AKGÜNDÜZ",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 254
+      },
+      {
+        "flat": "D/17",
+        "name": "HİKMET SANCAR",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 255
+      },
+      {
+        "flat": "D/18",
+        "name": "TECELLİ KURTOĞLU",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 256
+      },
+      {
+        "flat": "D/11-A",
+        "name": "SEVCAN ARAS",
+        "yakit": 200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 600,
+        "tarih": "10.11.2025",
+        "makbuz": 257
+      },
+      {
+        "flat": "E/1",
+        "name": "FAZLI AKYILDIZ",
+        "yakit": 575,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 975,
+        "tarih": "10.11.2025",
+        "makbuz": 258
+      },
+      {
+        "flat": "E/2",
+        "name": "NEFİSE VAZVAZ",
+        "yakit": 575,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 975,
+        "tarih": "10.11.2025",
+        "makbuz": 259
+      },
+      {
+        "flat": "E/3",
+        "name": "FAHRETTİN GÜVENDİ",
+        "yakit": 780,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1180,
+        "tarih": "10.11.2025",
+        "makbuz": 260
+      },
+      {
+        "flat": "E/4",
+        "name": "MURAT AÇIKGÖZ",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 261
+      },
+      {
+        "flat": "E/5",
+        "name": "AHMET YALÇIN",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 262
+      },
+      {
+        "flat": "E/6",
+        "name": "İBRAHİM ÖDEMİŞ",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 263
+      },
+      {
+        "flat": "E/7",
+        "name": "ALİ ÖZYILMAZ",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 264
+      },
+      {
+        "flat": "E/8",
+        "name": "HÜSEYİN KANDEMİR",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 265
+      },
+      {
+        "flat": "E/9",
+        "name": "HÜSEYİN AKYILDIZ",
+        "yakit": 780,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1180,
+        "tarih": "10.11.2025",
+        "makbuz": 266
+      },
+      {
+        "flat": "E/10",
+        "name": "MUSTAFA KARALI",
+        "yakit": 780,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1180,
+        "tarih": "10.11.2025",
+        "makbuz": 267
+      },
+      {
+        "flat": "E/11",
+        "name": "İSMAİL KULA",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 268
+      },
+      {
+        "flat": "E/12",
+        "name": "YAKUP KARTAL",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 269
+      },
+      {
+        "flat": "E/13",
+        "name": "YÜKSEL ÖKSÜZ",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 270
+      },
+      {
+        "flat": "E/14",
+        "name": "MUHİTTİN ÇAPAR",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 271
+      },
+      {
+        "flat": "E/15",
+        "name": "EMİNE DEMİRÖZ",
+        "yakit": 780,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1180,
+        "tarih": "10.11.2025",
+        "makbuz": 272
+      },
+      {
+        "flat": "E/16",
+        "name": "İBRAHİM UÇAR",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 273
+      },
+      {
+        "flat": "E/17",
+        "name": "MESUT MEMİŞ",
+        "yakit": 780,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1180,
+        "tarih": "10.11.2025",
+        "makbuz": 274
+      },
+      {
+        "flat": "E/18",
+        "name": "SATILMIŞ HOTOĞLU",
+        "yakit": 750,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1150,
+        "tarih": "10.11.2025",
+        "makbuz": 275
+      }
+    ],
+    "ARALIK 2025": [
+      {
+        "flat": "C/1",
+        "name": "AYHAN ÖZYILMAZ",
+        "yakit": 1215,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1615,
+        "tarih": "10.12.2025",
+        "makbuz": 276
+      },
+      {
+        "flat": "C/2",
+        "name": "OSMAN ÖZTÜRK",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 277
+      },
+      {
+        "flat": "C/3",
+        "name": "FEYZULLAH YALÇIN",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 278
+      },
+      {
+        "flat": "C/4",
+        "name": "İSMAİL ÇAĞLAR",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 279
+      },
+      {
+        "flat": "C/5",
+        "name": "ARİF KARA",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 280
+      },
+      {
+        "flat": "C/6",
+        "name": "EMRE KAYA",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 281
+      },
+      {
+        "flat": "C/7",
+        "name": "HARUN HASANOĞLU",
+        "yakit": 1655,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2055,
+        "tarih": "10.12.2025",
+        "makbuz": 282
+      },
+      {
+        "flat": "C/8",
+        "name": "TUNCAY DELİGÖZ",
+        "yakit": 1655,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2055,
+        "tarih": "10.12.2025",
+        "makbuz": 283
+      },
+      {
+        "flat": "C/9",
+        "name": "SALÇUK KÖMÜR",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 284
+      },
+      {
+        "flat": "C/10",
+        "name": "MUSTAFA KAÇAR",
+        "yakit": 1655,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2055,
+        "tarih": "10.12.2025",
+        "makbuz": 285
+      },
+      {
+        "flat": "C/11",
+        "name": "MEHMET KARATEPE",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 286
+      },
+      {
+        "flat": "C/12",
+        "name": "YUSUF KAYA",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 287
+      },
+      {
+        "flat": "C/13",
+        "name": "İSMAİL KELEŞ",
+        "yakit": 1655,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2055,
+        "tarih": "10.12.2025",
+        "makbuz": 288
+      },
+      {
+        "flat": "C/14",
+        "name": "MEHMET YILDIRIM",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 289
+      },
+      {
+        "flat": "C/15",
+        "name": "FERHAT OKÇU",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 290
+      },
+      {
+        "flat": "C/16",
+        "name": "İSA GÜRAY",
+        "yakit": 1655,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2055,
+        "tarih": "10.12.2025",
+        "makbuz": 291
+      },
+      {
+        "flat": "C/17",
+        "name": "SATILMIŞ GÖKBAYIR",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 292
+      },
+      {
+        "flat": "C/18",
+        "name": "HASAN AYAN",
+        "yakit": 1215,
+        "genel": 0,
+        "gider": 0,
+        "toplam": 1215,
+        "tarih": "10.12.2025",
+        "makbuz": 293
+      },
+      {
+        "flat": "D/1",
+        "name": "KANAN KİBAR",
+        "yakit": 1215,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1615,
+        "tarih": "10.12.2025",
+        "makbuz": 294
+      },
+      {
+        "flat": "D/2",
+        "name": "İRFAN AKBAŞ",
+        "yakit": 1215,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1615,
+        "tarih": "10.12.2025",
+        "makbuz": 295
+      },
+      {
+        "flat": "D/3",
+        "name": "MURAT YEŞİLKAYA",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 296
+      },
+      {
+        "flat": "D/4",
+        "name": "HASAN ÇAPAR",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 297
+      },
+      {
+        "flat": "D/5",
+        "name": "SATI DURMUŞ",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 298
+      },
+      {
+        "flat": "D/6",
+        "name": "CÜNEYT GÜL",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 299
+      },
+      {
+        "flat": "D/7",
+        "name": "BİLAL YALÇIN",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 300
+      },
+      {
+        "flat": "D/8",
+        "name": "SATILMIŞ YETİŞ",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 301
+      },
+      {
+        "flat": "D/9",
+        "name": "ZELİHA ALTUN",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 302
+      },
+      {
+        "flat": "D/10",
+        "name": "MUSTAFA ARMAĞAN",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 303
+      },
+      {
+        "flat": "D/11",
+        "name": "GÜLENDER KELEŞ",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 304
+      },
+      {
+        "flat": "D/12",
+        "name": "İBRAHİM ÇAPAR",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 305
+      },
+      {
+        "flat": "D/13",
+        "name": "SERVET DERVİŞ",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 306
+      },
+      {
+        "flat": "D/14",
+        "name": "KERİM COŞKUN",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 307
+      },
+      {
+        "flat": "D/15",
+        "name": "EMİN SOYUPEK",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 308
+      },
+      {
+        "flat": "D/16",
+        "name": "ŞABAN AKGÜNDÜZ",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 309
+      },
+      {
+        "flat": "D/17",
+        "name": "HİKMET SANCAR",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 310
+      },
+      {
+        "flat": "D/18",
+        "name": "TECELLİ KURTOĞLU",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 311
+      },
+      {
+        "flat": "D/11-A",
+        "name": "SEVCAN ASAR",
+        "yakit": 425,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 825,
+        "tarih": "10.12.2025",
+        "makbuz": 312
+      },
+      {
+        "flat": "E/1",
+        "name": "FAZLI AKYILDIZ",
+        "yakit": 1215,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1615,
+        "tarih": "10.12.2025",
+        "makbuz": 313
+      },
+      {
+        "flat": "E/2",
+        "name": "NEFİSE VAZVAZ",
+        "yakit": 1215,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1615,
+        "tarih": "10.12.2025",
+        "makbuz": 314
+      },
+      {
+        "flat": "E/3",
+        "name": "FAHRETTİN GÜVENDİ",
+        "yakit": 1655,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2055,
+        "tarih": "10.12.2025",
+        "makbuz": 315
+      },
+      {
+        "flat": "E/4",
+        "name": "MURAT AÇIKGÖZ",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 316
+      },
+      {
+        "flat": "E/5",
+        "name": "AHMET YALÇIN",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 317
+      },
+      {
+        "flat": "E/6",
+        "name": "İBRAHİM ÖDEMİŞ",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 318
+      },
+      {
+        "flat": "E/7",
+        "name": "ALİ ÖZYILMAZ",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 319
+      },
+      {
+        "flat": "E/8",
+        "name": "HÜSEYİN KANDEMİR",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 320
+      },
+      {
+        "flat": "E/9",
+        "name": "HÜSEYİN AKYILDIZ",
+        "yakit": 1655,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2055,
+        "tarih": "10.12.2025",
+        "makbuz": 321
+      },
+      {
+        "flat": "E/10",
+        "name": "MUSTAFA KARALI",
+        "yakit": 1655,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2055,
+        "tarih": "10.12.2025",
+        "makbuz": 322
+      },
+      {
+        "flat": "E/11",
+        "name": "İSMAİL KULA",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 323
+      },
+      {
+        "flat": "E/12",
+        "name": "YAKUP KARTAL",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 324
+      },
+      {
+        "flat": "E/13",
+        "name": "YÜKSEL ÖKSÜZ",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 325
+      },
+      {
+        "flat": "E/14",
+        "name": "MUHİTTİN ÇAPAR",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 326
+      },
+      {
+        "flat": "E/15",
+        "name": "EMİNE DEMİRÖZ",
+        "yakit": 1655,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2055,
+        "tarih": "10.12.2025",
+        "makbuz": 327
+      },
+      {
+        "flat": "E/16",
+        "name": "İBRAHİM UÇAR",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 328
+      },
+      {
+        "flat": "E/17",
+        "name": "MESUT MEMİŞ",
+        "yakit": 1655,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2055,
+        "tarih": "10.12.2025",
+        "makbuz": 329
+      },
+      {
+        "flat": "E/18",
+        "name": "SATILMIŞ HOTOĞLU",
+        "yakit": 1600,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2000,
+        "tarih": "10.12.2025",
+        "makbuz": 330
+      }
+    ],
+    "OCAK 2026": [
+      {
+        "flat": "C/1",
+        "name": "AYHAN ÖZYILMAZ",
+        "yakit": 2435,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2835,
+        "tarih": "10.01.2026",
+        "makbuz": 331
+      },
+      {
+        "flat": "C/2",
+        "name": "OSMAN ÖZTÜRK",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 332
+      },
+      {
+        "flat": "C/3",
+        "name": "FEYZULLAH YALÇIN",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 333
+      },
+      {
+        "flat": "C/4",
+        "name": "İSMAİL ÇAĞLAR",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 334
+      },
+      {
+        "flat": "C/5",
+        "name": "ARİF KARA",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 335
+      },
+      {
+        "flat": "C/6",
+        "name": "EMRE KAYA",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 336
+      },
+      {
+        "flat": "C/7",
+        "name": "HARUN HASANOĞLU",
+        "yakit": 3315,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3715,
+        "tarih": "10.01.2026",
+        "makbuz": 337
+      },
+      {
+        "flat": "C/8",
+        "name": "TUNCAY DELİGÖZ",
+        "yakit": 3315,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3715,
+        "tarih": "10.01.2026",
+        "makbuz": 338
+      },
+      {
+        "flat": "C/9",
+        "name": "ŞEYMA ÖZDEMİR",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 339
+      },
+      {
+        "flat": "C/10",
+        "name": "MUSTAFA KAÇAR",
+        "yakit": 3315,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3715,
+        "tarih": "10.01.2026",
+        "makbuz": 340
+      },
+      {
+        "flat": "C/11",
+        "name": "MEHMET KARATEPE",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 341
+      },
+      {
+        "flat": "C/12",
+        "name": "YUSUF KAYA",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 342
+      },
+      {
+        "flat": "C/13",
+        "name": "İSMAİL KELEŞ",
+        "yakit": 3315,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3715,
+        "tarih": "10.01.2026",
+        "makbuz": 343
+      },
+      {
+        "flat": "C/14",
+        "name": "MEHMET YILDIRIM",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 344
+      },
+      {
+        "flat": "C/15",
+        "name": "FERHAT OKÇU",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 345
+      },
+      {
+        "flat": "C/16",
+        "name": "İSA GÜRAY",
+        "yakit": 3315,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3715,
+        "tarih": "10.01.2026",
+        "makbuz": 346
+      },
+      {
+        "flat": "C/17",
+        "name": "SATILMIŞ GÖKBAYIR",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 347
+      },
+      {
+        "flat": "C/18",
+        "name": "HASAN AYAN",
+        "yakit": 2435,
+        "genel": 0,
+        "gider": 0,
+        "toplam": 2435,
+        "tarih": "10.01.2026",
+        "makbuz": 348
+      },
+      {
+        "flat": "D/1",
+        "name": "KANAN KİBAR",
+        "yakit": 2435,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2835,
+        "tarih": "10.01.2026",
+        "makbuz": 349
+      },
+      {
+        "flat": "D/2",
+        "name": "İRFAN AKBAŞ",
+        "yakit": 2435,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2835,
+        "tarih": "10.01.2026",
+        "makbuz": 350
+      },
+      {
+        "flat": "D/3",
+        "name": "MURAT YEŞİLKAYA",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 351
+      },
+      {
+        "flat": "D/4",
+        "name": "HASAN ÇAPAR",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 352
+      },
+      {
+        "flat": "D/5",
+        "name": "SATI DURMUŞ",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 353
+      },
+      {
+        "flat": "D/6",
+        "name": "CÜNEYT GÜL",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 354
+      },
+      {
+        "flat": "D/7",
+        "name": "BİLAL YALÇIN",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 355
+      },
+      {
+        "flat": "D/8",
+        "name": "SATILMIŞ YETİŞ",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 356
+      },
+      {
+        "flat": "D/9",
+        "name": "ZELİHA ALTUN",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 357
+      },
+      {
+        "flat": "D/10",
+        "name": "MUSTAFA ARMAĞAN",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 358
+      },
+      {
+        "flat": "D/11",
+        "name": "GÜLENDER KELEŞ",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 359
+      },
+      {
+        "flat": "D/12",
+        "name": "İBRAHİM ÇAPAR",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 360
+      },
+      {
+        "flat": "D/13",
+        "name": "SERVET DERVİŞ",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 361
+      },
+      {
+        "flat": "D/14",
+        "name": "KERİM COŞKUN",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 362
+      },
+      {
+        "flat": "D/15",
+        "name": "EMİN SOYUPEK",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 363
+      },
+      {
+        "flat": "D/16",
+        "name": "ŞABAN AKGÜNDÜZ",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 364
+      },
+      {
+        "flat": "D/17",
+        "name": "HİKMET SANCAR",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 365
+      },
+      {
+        "flat": "D/18",
+        "name": "TECELLİ KURTOĞLU",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 366
+      },
+      {
+        "flat": "D/11-A",
+        "name": "SEVCAN ASAR",
+        "yakit": 850,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1250,
+        "tarih": "10.01.2026",
+        "makbuz": 367
+      },
+      {
+        "flat": "E/1",
+        "name": "FAZLI AKYILDIZ",
+        "yakit": 2435,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2835,
+        "tarih": "10.01.2026",
+        "makbuz": 368
+      },
+      {
+        "flat": "E/2",
+        "name": "NEFİSE VAZVAZ",
+        "yakit": 2435,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2835,
+        "tarih": "10.01.2026",
+        "makbuz": 369
+      },
+      {
+        "flat": "E/3",
+        "name": "FAHRETTİN GÜVENDİ",
+        "yakit": 3315,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3715,
+        "tarih": "10.01.2026",
+        "makbuz": 370
+      },
+      {
+        "flat": "E/4",
+        "name": "MURAT AÇIKGÖZ",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 371
+      },
+      {
+        "flat": "E/5",
+        "name": "AHMET YALÇIN",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 372
+      },
+      {
+        "flat": "E/6",
+        "name": "İBRAHİM ÖDEMİŞ",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 373
+      },
+      {
+        "flat": "E/7",
+        "name": "ALİ ÖZYILMAZ",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 374
+      },
+      {
+        "flat": "E/8",
+        "name": "HÜSEYİN KANDEMİR",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 375
+      },
+      {
+        "flat": "E/9",
+        "name": "HÜSEYİN AKYILDIZ",
+        "yakit": 3315,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3715,
+        "tarih": "10.01.2026",
+        "makbuz": 376
+      },
+      {
+        "flat": "E/10",
+        "name": "MUSTAFA KARALI",
+        "yakit": 3315,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3715,
+        "tarih": "10.01.2026",
+        "makbuz": 377
+      },
+      {
+        "flat": "E/11",
+        "name": "İSMAİL KULA",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 378
+      },
+      {
+        "flat": "E/12",
+        "name": "YAKUP KARTAL",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 379
+      },
+      {
+        "flat": "E/13",
+        "name": "YÜKSEL ÖKSÜZ",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 380
+      },
+      {
+        "flat": "E/14",
+        "name": "MUHİTTİN ÇAPAR",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 381
+      },
+      {
+        "flat": "E/15",
+        "name": "EMİNE DEMİRÖZ",
+        "yakit": 3315,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3715,
+        "tarih": "10.01.2026",
+        "makbuz": 382
+      },
+      {
+        "flat": "E/16",
+        "name": "İBRAHİM UÇAR",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 383
+      },
+      {
+        "flat": "E/17",
+        "name": "MESUT MEMİŞ",
+        "yakit": 3315,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3715,
+        "tarih": "10.01.2026",
+        "makbuz": 384
+      },
+      {
+        "flat": "E/18",
+        "name": "SATILMIŞ HOTOĞLU",
+        "yakit": 3200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3600,
+        "tarih": "10.01.2026",
+        "makbuz": 385
+      }
+    ],
+    "ŞUBAT 2026": [
+      {
+        "flat": "C/1",
+        "name": "AYHAN ÖZYILMAZ",
+        "yakit": 2695,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3095,
+        "tarih": "10.02.2026",
+        "makbuz": 386
+      },
+      {
+        "flat": "C/2",
+        "name": "OSMAN ÖZTÜRK",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 387
+      },
+      {
+        "flat": "C/3",
+        "name": "FEYZULLAH YALÇIN",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 388
+      },
+      {
+        "flat": "C/4",
+        "name": "İSMAİL ÇAĞLAR",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 389
+      },
+      {
+        "flat": "C/5",
+        "name": "ARİF KARA",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 390
+      },
+      {
+        "flat": "C/6",
+        "name": "EMRE KAYA",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 391
+      },
+      {
+        "flat": "C/7",
+        "name": "HARUN HASANOĞLU",
+        "yakit": 3665,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 4065,
+        "tarih": "10.02.2026",
+        "makbuz": 392
+      },
+      {
+        "flat": "C/8",
+        "name": "TUNCAY DELİGÖZ",
+        "yakit": 3665,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 4065,
+        "tarih": "10.02.2026",
+        "makbuz": 393
+      },
+      {
+        "flat": "C/9",
+        "name": "ŞEYDA NUR ÖZDEMİR",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 394
+      },
+      {
+        "flat": "C/10",
+        "name": "MUSTAFA KAÇAR",
+        "yakit": 3665,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 4065,
+        "tarih": "10.02.2026",
+        "makbuz": 395
+      },
+      {
+        "flat": "C/11",
+        "name": "MEHMET KARATEPE",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 396
+      },
+      {
+        "flat": "C/12",
+        "name": "YUSUF KAYA",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 397
+      },
+      {
+        "flat": "C/13",
+        "name": "İSMAİL KELEŞ",
+        "yakit": 3665,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 4065,
+        "tarih": "10.02.2026",
+        "makbuz": 398
+      },
+      {
+        "flat": "C/14",
+        "name": "MEHMET YILDIRIM",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 399
+      },
+      {
+        "flat": "C/15",
+        "name": "FERHAT OKÇU",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 400
+      },
+      {
+        "flat": "C/16",
+        "name": "İSA GÜRAY",
+        "yakit": 3665,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 4065,
+        "tarih": "10.02.2026",
+        "makbuz": 401
+      },
+      {
+        "flat": "C/17",
+        "name": "SATILMIŞ GÖKBAYIR",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 402
+      },
+      {
+        "flat": "C/18",
+        "name": "HASAN AYAN",
+        "yakit": 2695,
+        "genel": 0,
+        "gider": 0,
+        "toplam": 2695,
+        "tarih": "10.02.2026",
+        "makbuz": 403
+      },
+      {
+        "flat": "D/1",
+        "name": "KANAN KİBAR",
+        "yakit": 2695,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3095,
+        "tarih": "10.02.2026",
+        "makbuz": 404
+      },
+      {
+        "flat": "D/2",
+        "name": "İRFAN AKBAŞ",
+        "yakit": 2695,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3095,
+        "tarih": "10.02.2026",
+        "makbuz": 405
+      },
+      {
+        "flat": "D/3",
+        "name": "MURAT YEŞİLKAYA",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 406
+      },
+      {
+        "flat": "D/4",
+        "name": "HASAN ÇAPAR",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 407
+      },
+      {
+        "flat": "D/5",
+        "name": "SATI DURMUŞ",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 408
+      },
+      {
+        "flat": "D/6",
+        "name": "CÜNEYT GÜL",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 409
+      },
+      {
+        "flat": "D/7",
+        "name": "BİLAL YALÇIN",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 410
+      },
+      {
+        "flat": "D/8",
+        "name": "SATILMIŞ YETİŞ",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 411
+      },
+      {
+        "flat": "D/9",
+        "name": "SİNAN ARAL",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 412
+      },
+      {
+        "flat": "D/10",
+        "name": "MUSTAFA ARMAĞAN",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 413
+      },
+      {
+        "flat": "D/11",
+        "name": "GÜLENDER KELEŞ",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 414
+      },
+      {
+        "flat": "D/12",
+        "name": "İBRAHİM ÇAPAR",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 415
+      },
+      {
+        "flat": "D/13",
+        "name": "SERVET DERVİŞ",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 416
+      },
+      {
+        "flat": "D/14",
+        "name": "KERİM COŞKUN",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 417
+      },
+      {
+        "flat": "D/15",
+        "name": "EMİN SOYUPEK",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 418
+      },
+      {
+        "flat": "D/16",
+        "name": "ŞABAN AKGÜNDÜZ",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 419
+      },
+      {
+        "flat": "D/17",
+        "name": "HİKMET SANCAR",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 420
+      },
+      {
+        "flat": "D/18",
+        "name": "TECELLİ KURTOĞLU",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 421
+      },
+      {
+        "flat": "D/11-A",
+        "name": "SEVCAN ASAR",
+        "yakit": 940,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1340,
+        "tarih": "10.02.2026",
+        "makbuz": 422
+      },
+      {
+        "flat": "E/1",
+        "name": "FAZLI AKYILDIZ",
+        "yakit": 2695,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3095,
+        "tarih": "10.02.2026",
+        "makbuz": 423
+      },
+      {
+        "flat": "E/2",
+        "name": "NEFİSE VAZVAZ",
+        "yakit": 2695,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3095,
+        "tarih": "10.02.2026",
+        "makbuz": 424
+      },
+      {
+        "flat": "E/3",
+        "name": "FAHRETTİN GÜVENDİ",
+        "yakit": 3665,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 4065,
+        "tarih": "10.02.2026",
+        "makbuz": 425
+      },
+      {
+        "flat": "E/4",
+        "name": "MURAT AÇIKGÖZ",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 426
+      },
+      {
+        "flat": "E/5",
+        "name": "AHMET YALÇIN",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 427
+      },
+      {
+        "flat": "E/6",
+        "name": "İBRAHİM ÖDEMİŞ",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 428
+      },
+      {
+        "flat": "E/7",
+        "name": "ALİ ÖZYILMAZ",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 429
+      },
+      {
+        "flat": "E/8",
+        "name": "HÜSEYİN KANDEMİR",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 430
+      },
+      {
+        "flat": "E/9",
+        "name": "HÜSEYİN AKYILDIZ",
+        "yakit": 3665,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 4065,
+        "tarih": "10.02.2026",
+        "makbuz": 431
+      },
+      {
+        "flat": "E/10",
+        "name": "MUSTAFA KARALI",
+        "yakit": 3665,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 4065,
+        "tarih": "10.02.2026",
+        "makbuz": 432
+      },
+      {
+        "flat": "E/11",
+        "name": "İSMAİL KULA",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 433
+      },
+      {
+        "flat": "E/12",
+        "name": "YAKUP KARTAL",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 434
+      },
+      {
+        "flat": "E/13",
+        "name": "YÜKSEL ÖKSÜZ",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 435
+      },
+      {
+        "flat": "E/14",
+        "name": "MUHİTTİN ÇAPAR",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 436
+      },
+      {
+        "flat": "E/15",
+        "name": "EMİNE DEMİRÖZ",
+        "yakit": 3665,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 4065,
+        "tarih": "10.02.2026",
+        "makbuz": 437
+      },
+      {
+        "flat": "E/16",
+        "name": "İBRAHİM UÇAR",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 438
+      },
+      {
+        "flat": "E/17",
+        "name": "MESUT MEMİŞ",
+        "yakit": 3665,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 4065,
+        "tarih": "10.02.2026",
+        "makbuz": 439
+      },
+      {
+        "flat": "E/18",
+        "name": "SATILMIŞ HOTOĞLU",
+        "yakit": 3535,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 3935,
+        "tarih": "10.02.2026",
+        "makbuz": 440
+      }
+    ],
+    "Mart 2026": [
+      {
+        "flat": "C/1",
+        "name": "AYHAN ÖZYILMAZ",
+        "yakit": 1775,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2175,
+        "tarih": "10.03.2026",
+        "makbuz": 441
+      },
+      {
+        "flat": "C/2",
+        "name": "OSMAN ÖZTÜRK",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 442
+      },
+      {
+        "flat": "C/3",
+        "name": "FEYZULLAH YALÇIN",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 443
+      },
+      {
+        "flat": "C/4",
+        "name": "İSMAİL ÇAĞLAR",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 444
+      },
+      {
+        "flat": "C/5",
+        "name": "ARİF KARA",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 445
+      },
+      {
+        "flat": "C/6",
+        "name": "EMRE KAYA",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 446
+      },
+      {
+        "flat": "C/7",
+        "name": "HARUN HASANOĞLU",
+        "yakit": 2420,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2820,
+        "tarih": "10.03.2026",
+        "makbuz": 447
+      },
+      {
+        "flat": "C/8",
+        "name": "TUNCAY DELİGÖZ",
+        "yakit": 2420,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2820,
+        "tarih": "10.03.2026",
+        "makbuz": 448
+      },
+      {
+        "flat": "C/9",
+        "name": "ŞEYDA NUR ÖZDEMİR",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 449
+      },
+      {
+        "flat": "C/10",
+        "name": "MUSTAFA KAÇAR",
+        "yakit": 2420,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2820,
+        "tarih": "10.03.2026",
+        "makbuz": 450
+      },
+      {
+        "flat": "C/11",
+        "name": "MEHMET KARATEPE",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 451
+      },
+      {
+        "flat": "C/12",
+        "name": "YUSUF KAYA",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 452
+      },
+      {
+        "flat": "C/13",
+        "name": "İSMAİL KELEŞ",
+        "yakit": 2420,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2820,
+        "tarih": "10.03.2026",
+        "makbuz": 453
+      },
+      {
+        "flat": "C/14",
+        "name": "MEHMET YILDIRIM",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 454
+      },
+      {
+        "flat": "C/15",
+        "name": "FERHAT OKÇU",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 455
+      },
+      {
+        "flat": "C/16",
+        "name": "İSA GÜRAY",
+        "yakit": 2420,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2820,
+        "tarih": "10.03.2026",
+        "makbuz": 456
+      },
+      {
+        "flat": "C/17",
+        "name": "SATILMIŞ GÖKBAYIR",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 457
+      },
+      {
+        "flat": "C/18",
+        "name": "HASAN AYHAN",
+        "yakit": 1775,
+        "genel": 0,
+        "gider": 0,
+        "toplam": 1775,
+        "tarih": "10.03.2026",
+        "makbuz": 458
+      },
+      {
+        "flat": "D/1",
+        "name": "KANAN KİBAR",
+        "yakit": 1775,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2175,
+        "tarih": "10.03.2026",
+        "makbuz": 459
+      },
+      {
+        "flat": "D/2",
+        "name": "İRFAN AKBAŞ",
+        "yakit": 1775,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2175,
+        "tarih": "10.03.2026",
+        "makbuz": 460
+      },
+      {
+        "flat": "D/3",
+        "name": "MURAT YEŞİLKAYA",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 461
+      },
+      {
+        "flat": "D/4",
+        "name": "HASAN ÇAPAR",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 462
+      },
+      {
+        "flat": "D/5",
+        "name": "SATI DURMUŞ",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 463
+      },
+      {
+        "flat": "D/6",
+        "name": "CÜNEYT GÜL",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 464
+      },
+      {
+        "flat": "D/7",
+        "name": "BİLAL YALÇIN",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 465
+      },
+      {
+        "flat": "D/8",
+        "name": "SATILMIŞ YETİŞ",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 466
+      },
+      {
+        "flat": "D/9",
+        "name": "SİNAN ARAL",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 467
+      },
+      {
+        "flat": "D/10",
+        "name": "MUSTAFA ARMAĞAN",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 468
+      },
+      {
+        "flat": "D/11",
+        "name": "GÜLENDER KELEŞ",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 469
+      },
+      {
+        "flat": "D/12",
+        "name": "İBRAHİM ÇAPAR",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 470
+      },
+      {
+        "flat": "D/13",
+        "name": "SELVET DERVİŞ",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 471
+      },
+      {
+        "flat": "D/14",
+        "name": "KERİM COŞKUN",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 472
+      },
+      {
+        "flat": "D/15",
+        "name": "EMİN SOYUPEK",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 473
+      },
+      {
+        "flat": "D/16",
+        "name": "ŞABAN AKGÜNDÜZ",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 474
+      },
+      {
+        "flat": "D/17",
+        "name": "HİKMET SANCAR",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 475
+      },
+      {
+        "flat": "D/18",
+        "name": "TECELLİ KURTOĞLU",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 476
+      },
+      {
+        "flat": "D/11-A",
+        "name": "SEVCAN ASAR",
+        "yakit": 620,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1020,
+        "tarih": "10.03.2026",
+        "makbuz": 477
+      },
+      {
+        "flat": "E/1",
+        "name": "FAZLI AKYILDIZ",
+        "yakit": 1775,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2175,
+        "tarih": "10.03.2026",
+        "makbuz": 478
+      },
+      {
+        "flat": "E/2",
+        "name": "NEFİSE VAZVAZ",
+        "yakit": 1775,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2175,
+        "tarih": "10.03.2026",
+        "makbuz": 479
+      },
+      {
+        "flat": "E/3",
+        "name": "FAHRETTİN GÜVENDİ",
+        "yakit": 2420,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2820,
+        "tarih": "10.03.2026",
+        "makbuz": 480
+      },
+      {
+        "flat": "E/4",
+        "name": "MURAT AÇIKGÖZ",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 481
+      },
+      {
+        "flat": "E/5",
+        "name": "AHMET YALÇIN",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 482
+      },
+      {
+        "flat": "E/6",
+        "name": "İBRAHİM ÖDEMİŞ",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 483
+      },
+      {
+        "flat": "E/7",
+        "name": "ALİ ÖZYILMAZ",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 484
+      },
+      {
+        "flat": "E/8",
+        "name": "HÜSEYİN KANDEMİR",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 485
+      },
+      {
+        "flat": "E/9",
+        "name": "HÜSEYİN AKYILDIZ",
+        "yakit": 2420,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2820,
+        "tarih": "10.03.2026",
+        "makbuz": 486
+      },
+      {
+        "flat": "E/10",
+        "name": "MUSTAFA KARALI",
+        "yakit": 2420,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2820,
+        "tarih": "10.03.2026",
+        "makbuz": 487
+      },
+      {
+        "flat": "E/11",
+        "name": "İSMAİL KULA",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 488
+      },
+      {
+        "flat": "E/12",
+        "name": "YAKUP KARTAL",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 489
+      },
+      {
+        "flat": "E/13",
+        "name": "YÜKSEL ÖKSÜZ",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 490
+      },
+      {
+        "flat": "E/14",
+        "name": "MUHİTTİN ÇAPAR",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 491
+      },
+      {
+        "flat": "E/15",
+        "name": "EMİNE DEMİRÖZ",
+        "yakit": 2420,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2820,
+        "tarih": "10.03.2026",
+        "makbuz": 492
+      },
+      {
+        "flat": "E/16",
+        "name": "İBRAHİM UÇAR",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 493
+      },
+      {
+        "flat": "E/17",
+        "name": "MESUT MEMİŞ",
+        "yakit": 2420,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2820,
+        "tarih": "10.03.2026",
+        "makbuz": 494
+      },
+      {
+        "flat": "E/18",
+        "name": "SATILMIŞ HOTOĞLU",
+        "yakit": 2330,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2730,
+        "tarih": "10.03.2026",
+        "makbuz": 495
+      }
+    ],
+    "nisan 2026": [
+      {
+        "flat": "C/1",
+        "name": "AYHAN ÖZYILMAZ",
+        "yakit": 1675,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2075,
+        "tarih": "10.03.2026",
+        "makbuz": 496
+      },
+      {
+        "flat": "C/2",
+        "name": "OSMAN ÖZTÜRK",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 497
+      },
+      {
+        "flat": "C/3",
+        "name": "FEYZULLAH YALÇIN",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 498
+      },
+      {
+        "flat": "C/4",
+        "name": "İSMAİL ÇAĞLAR",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 499
+      },
+      {
+        "flat": "C/5",
+        "name": "ARİF KARA",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 500
+      },
+      {
+        "flat": "C/6",
+        "name": "EMRE KAYA",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 501
+      },
+      {
+        "flat": "C/7",
+        "name": "HARUN HASANOĞLU",
+        "yakit": 2280,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2680,
+        "tarih": "10.03.2026",
+        "makbuz": 502
+      },
+      {
+        "flat": "C/8",
+        "name": "TUNCAY DELİGÖZ",
+        "yakit": 2280,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2680,
+        "tarih": "10.03.2026",
+        "makbuz": 503
+      },
+      {
+        "flat": "C/9",
+        "name": "ŞEYDA NUR ÖZDEMİR",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 504
+      },
+      {
+        "flat": "C/10",
+        "name": "MUSTAFA KAÇAR",
+        "yakit": 2280,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2680,
+        "tarih": "10.03.2026",
+        "makbuz": 505
+      },
+      {
+        "flat": "C/11",
+        "name": "MEHMET KARATEPE",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 506
+      },
+      {
+        "flat": "C/12",
+        "name": "YUSUF KAYA",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 507
+      },
+      {
+        "flat": "C/13",
+        "name": "İSMAİL KELEŞ",
+        "yakit": 2280,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2680,
+        "tarih": "10.03.2026",
+        "makbuz": 508
+      },
+      {
+        "flat": "C/14",
+        "name": "MEHMET YILDIRIM",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 509
+      },
+      {
+        "flat": "C/15",
+        "name": "FERHAT OKÇU",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 510
+      },
+      {
+        "flat": "C/16",
+        "name": "İSA GÜRAY",
+        "yakit": 2280,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2680,
+        "tarih": "10.03.2026",
+        "makbuz": 511
+      },
+      {
+        "flat": "C/17",
+        "name": "SATILMIŞ GÖKBAYIR",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 512
+      },
+      {
+        "flat": "C/18",
+        "name": "HASAN AYAN",
+        "yakit": 1675,
+        "genel": 0,
+        "gider": 0,
+        "toplam": 1675,
+        "tarih": "10.03.2026",
+        "makbuz": 513
+      },
+      {
+        "flat": "D/1",
+        "name": "KANAN KİBAR",
+        "yakit": 1675,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2075,
+        "tarih": "10.03.2026",
+        "makbuz": 514
+      },
+      {
+        "flat": "D/2",
+        "name": "İRFAN AKBAŞ",
+        "yakit": 1675,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2075,
+        "tarih": "10.03.2026",
+        "makbuz": 515
+      },
+      {
+        "flat": "D/3",
+        "name": "MURAT YEŞİLKAYA",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 516
+      },
+      {
+        "flat": "D/4",
+        "name": "HASAN ÇAPAR",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 517
+      },
+      {
+        "flat": "D/5",
+        "name": "SATI DURMUŞ",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 518
+      },
+      {
+        "flat": "D/6",
+        "name": "CÜNEYT GÜL",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 519
+      },
+      {
+        "flat": "D/7",
+        "name": "BİLAL YALÇIN",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 520
+      },
+      {
+        "flat": "D/8",
+        "name": "SATILMIŞ YETİŞ",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 521
+      },
+      {
+        "flat": "D/9",
+        "name": "SİNAN ARAL",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 522
+      },
+      {
+        "flat": "D/10",
+        "name": "MUSTAFA ARMAĞAN",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 523
+      },
+      {
+        "flat": "D/11",
+        "name": "GÜLENDER KELEŞ",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 524
+      },
+      {
+        "flat": "D/12",
+        "name": "İBRAHİM ÇAPAR",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 525
+      },
+      {
+        "flat": "D/13",
+        "name": "SERVET DERVİŞ",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 526
+      },
+      {
+        "flat": "D/14",
+        "name": "KERİM COŞKUN",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 527
+      },
+      {
+        "flat": "D/15",
+        "name": "EMİN SOYUPEK",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 528
+      },
+      {
+        "flat": "D/16",
+        "name": "ŞABAN AKGÜNDÜZ",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 529
+      },
+      {
+        "flat": "D/17",
+        "name": "HİKMET SANCAR",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 530
+      },
+      {
+        "flat": "D/18",
+        "name": "TECELLİ KURTOĞLU",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 531
+      },
+      {
+        "flat": "D/11-A",
+        "name": "SEVCAN ASAR",
+        "yakit": 585,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 985,
+        "tarih": "10.03.2026",
+        "makbuz": 532
+      },
+      {
+        "flat": "E/1",
+        "name": "FAZLI AKYILDIZ",
+        "yakit": 1675,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2075,
+        "tarih": "10.03.2026",
+        "makbuz": 533
+      },
+      {
+        "flat": "E/2",
+        "name": "NEFİSE VAZVAZ",
+        "yakit": 1675,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2075,
+        "tarih": "10.03.2026",
+        "makbuz": 534
+      },
+      {
+        "flat": "E/3",
+        "name": "FAHRETTİN GÜVENDİ",
+        "yakit": 2280,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2680,
+        "tarih": "10.03.2026",
+        "makbuz": 535
+      },
+      {
+        "flat": "E/4",
+        "name": "MURAT AÇIKGÖZ",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 536
+      },
+      {
+        "flat": "E/5",
+        "name": "AHMET YALÇIN",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 537
+      },
+      {
+        "flat": "E/6",
+        "name": "İBRAHİM ÖDEMİŞ",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 538
+      },
+      {
+        "flat": "E/7",
+        "name": "ALİ ÖZYILMAZ",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 539
+      },
+      {
+        "flat": "E/8",
+        "name": "HÜSEYİN KANDEMİR",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 540
+      },
+      {
+        "flat": "E/9",
+        "name": "HÜSEYİN AKYILDIZ",
+        "yakit": 2280,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2680,
+        "tarih": "10.03.2026",
+        "makbuz": 541
+      },
+      {
+        "flat": "E/10",
+        "name": "MUSTAFA KARALI",
+        "yakit": 2280,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2680,
+        "tarih": "10.03.2026",
+        "makbuz": 542
+      },
+      {
+        "flat": "E/11",
+        "name": "İSMAİL KULA",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 543
+      },
+      {
+        "flat": "E/12",
+        "name": "YAKUP KARTAL",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 544
+      },
+      {
+        "flat": "E/13",
+        "name": "YÜKSEL ÖKSÜZ",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 545
+      },
+      {
+        "flat": "E/14",
+        "name": "MUHİTTİN ÇAPAR",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 546
+      },
+      {
+        "flat": "E/15",
+        "name": "EMİNE DEMİRÖZ",
+        "yakit": 2280,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2680,
+        "tarih": "10.03.2026",
+        "makbuz": 547
+      },
+      {
+        "flat": "E/16",
+        "name": "İBRAHİM UÇAR",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 548
+      },
+      {
+        "flat": "E/17",
+        "name": "MESUT MEMİŞ",
+        "yakit": 2280,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2680,
+        "tarih": "10.03.2026",
+        "makbuz": 549
+      },
+      {
+        "flat": "E/18",
+        "name": "SATILMIŞ HOTOĞLU",
+        "yakit": 2200,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2600,
+        "tarih": "10.03.2026",
+        "makbuz": 550
+      }
+    ],
+    "mayıs 2026": [
+      {
+        "flat": "C/1",
+        "name": "AYHAN ÖZYILMAZ",
+        "yakit": 1575,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1975,
+        "tarih": "10.05.2026",
+        "makbuz": 551
+      },
+      {
+        "flat": "C/2",
+        "name": "OSMAN ÖZTÜRK",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 552
+      },
+      {
+        "flat": "C/3",
+        "name": "FEYZULLAH YALÇIN",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 553
+      },
+      {
+        "flat": "C/4",
+        "name": "İSMAİL ÇAĞLAR",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 554
+      },
+      {
+        "flat": "C/5",
+        "name": "ARİF KARA",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 555
+      },
+      {
+        "flat": "C/6",
+        "name": "EMRE KAYA",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 556
+      },
+      {
+        "flat": "C/7",
+        "name": "HARUN HASANOĞLU",
+        "yakit": 2145,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2545,
+        "tarih": "10.05.2026",
+        "makbuz": 557
+      },
+      {
+        "flat": "C/8",
+        "name": "TUNCAY DELİGÖZ",
+        "yakit": 2145,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2545,
+        "tarih": "10.05.2026",
+        "makbuz": 558
+      },
+      {
+        "flat": "C/9",
+        "name": "ŞEYDA NUR ÖZDEMİR",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 559
+      },
+      {
+        "flat": "C/10",
+        "name": "MUSTAFA KAÇAR",
+        "yakit": 2145,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2545,
+        "tarih": "10.05.2026",
+        "makbuz": 560
+      },
+      {
+        "flat": "C/11",
+        "name": "MEHMET KARATEPE",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 561
+      },
+      {
+        "flat": "C/12",
+        "name": "YUSUF KAYA",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 562
+      },
+      {
+        "flat": "C/13",
+        "name": "İSMAİL KELEŞ",
+        "yakit": 2145,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2545,
+        "tarih": "10.05.2026",
+        "makbuz": 563
+      },
+      {
+        "flat": "C/14",
+        "name": "MEHMET YILDIRIM",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 564
+      },
+      {
+        "flat": "C/15",
+        "name": "FERHAT OKÇU",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 565
+      },
+      {
+        "flat": "C/16",
+        "name": "İSA GÜRAY",
+        "yakit": 2145,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2545,
+        "tarih": "10.05.2026",
+        "makbuz": 566
+      },
+      {
+        "flat": "C/17",
+        "name": "SATILMIŞ GÖKBAYIR",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 567
+      },
+      {
+        "flat": "C/18",
+        "name": "HASAN AYAN",
+        "yakit": 1575,
+        "genel": 0,
+        "gider": 0,
+        "toplam": 1575,
+        "tarih": "10.05.2026",
+        "makbuz": 568
+      },
+      {
+        "flat": "D/1",
+        "name": "KANAN KİBAR",
+        "yakit": 1575,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1975,
+        "tarih": "10.05.2026",
+        "makbuz": 569
+      },
+      {
+        "flat": "D/2",
+        "name": "İRFAN AKBAŞ",
+        "yakit": 1575,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1975,
+        "tarih": "10.05.2026",
+        "makbuz": 570
+      },
+      {
+        "flat": "D/3",
+        "name": "MURAT YEŞİLKAYA",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 571
+      },
+      {
+        "flat": "D/4",
+        "name": "HASAN ÇAPAR",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 572
+      },
+      {
+        "flat": "D/5",
+        "name": "SATI DURMUŞ",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 573
+      },
+      {
+        "flat": "D/6",
+        "name": "CÜNEYT GÜL",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 574
+      },
+      {
+        "flat": "D/7",
+        "name": "BİLAL YALÇIN",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 575
+      },
+      {
+        "flat": "D/8",
+        "name": "SATILMIŞ YETİŞ",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 576
+      },
+      {
+        "flat": "D/9",
+        "name": "SİNAN ARAL",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 577
+      },
+      {
+        "flat": "D/10",
+        "name": "MUSTAFA ARMAĞAN",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 578
+      },
+      {
+        "flat": "D/11",
+        "name": "GÜLENDER KELEŞ",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 579
+      },
+      {
+        "flat": "D/12",
+        "name": "İBRAHİM ÇAPAR",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 580
+      },
+      {
+        "flat": "D/13",
+        "name": "SERVET DERVİŞ",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 581
+      },
+      {
+        "flat": "D/14",
+        "name": "KERİM COŞKUN",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 582
+      },
+      {
+        "flat": "D/15",
+        "name": "PEMBE KAYABAŞI",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 583
+      },
+      {
+        "flat": "D/16",
+        "name": "ŞABAN AKGÜNDÜZ",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 584
+      },
+      {
+        "flat": "D/17",
+        "name": "HİKMET SANCAR",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 585
+      },
+      {
+        "flat": "D/18",
+        "name": "TECELLİ KURTOĞLU",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 586
+      },
+      {
+        "flat": "D/11-A",
+        "name": "SEVCAN ASAR",
+        "yakit": 550,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 950,
+        "tarih": "10.05.2026",
+        "makbuz": 587
+      },
+      {
+        "flat": "E/1",
+        "name": "FAZLI AKYILDIZ",
+        "yakit": 1575,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1975,
+        "tarih": "10.05.2026",
+        "makbuz": 588
+      },
+      {
+        "flat": "E/2",
+        "name": "NEFİSE VAZVAZ",
+        "yakit": 1575,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 1975,
+        "tarih": "10.05.2026",
+        "makbuz": 589
+      },
+      {
+        "flat": "E/3",
+        "name": "FAHRETTİN GÜVENDİ",
+        "yakit": 2145,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2545,
+        "tarih": "10.05.2026",
+        "makbuz": 590
+      },
+      {
+        "flat": "E/4",
+        "name": "MURAT AÇIKGÖZ",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 591
+      },
+      {
+        "flat": "E/5",
+        "name": "AHMET YALÇIN",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 592
+      },
+      {
+        "flat": "E/6",
+        "name": "İBRAHİM ÖDEMİŞ",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 593
+      },
+      {
+        "flat": "E/7",
+        "name": "ALİ ÖZYILMAZ",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 594
+      },
+      {
+        "flat": "E/8",
+        "name": "HÜSEYİN KANDEMİR",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 595
+      },
+      {
+        "flat": "E/9",
+        "name": "HÜSEYİN AKYILDIZ",
+        "yakit": 2145,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2545,
+        "tarih": "10.05.2026",
+        "makbuz": 596
+      },
+      {
+        "flat": "E/10",
+        "name": "MUSTAFA KARALI",
+        "yakit": 2145,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2545,
+        "tarih": "10.05.2026",
+        "makbuz": 597
+      },
+      {
+        "flat": "E/11",
+        "name": "İSMAİL KULA",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 598
+      },
+      {
+        "flat": "E/12",
+        "name": "YAKUP KARTAL",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 599
+      },
+      {
+        "flat": "E/13",
+        "name": "YÜKSEL ÖKSÜZ",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 600
+      },
+      {
+        "flat": "E/14",
+        "name": "MUHİTTİN ÇAPAR",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 601
+      },
+      {
+        "flat": "E/15",
+        "name": "EMİNE DEMİRÖZ",
+        "yakit": 2145,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2545,
+        "tarih": "10.05.2026",
+        "makbuz": 602
+      },
+      {
+        "flat": "E/16",
+        "name": "İBRAHİM UÇAR",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 603
+      },
+      {
+        "flat": "E/17",
+        "name": "MESUT MEMİŞ",
+        "yakit": 2145,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2545,
+        "tarih": "10.05.2026",
+        "makbuz": 604
+      },
+      {
+        "flat": "E/18",
+        "name": "SATILMIŞ HOTOĞLU",
+        "yakit": 2070,
+        "genel": 0,
+        "gider": 400,
+        "toplam": 2470,
+        "tarih": "10.05.2026",
+        "makbuz": 605
+      }
+    ],
+    "HAZİRAN 2026": [
+      {
+        "flat": "C/1",
+        "name": "AYHAN ÖZYILMAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 606
+      },
+      {
+        "flat": "C/2",
+        "name": "OSMAN ÖZTÜRK",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 607
+      },
+      {
+        "flat": "C/3",
+        "name": "FEYZULLAH YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 608
+      },
+      {
+        "flat": "C/4",
+        "name": "İSMAİL ÇAĞLAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 609
+      },
+      {
+        "flat": "C/5",
+        "name": "ARİF KARA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 610
+      },
+      {
+        "flat": "C/6",
+        "name": "EMRE KAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 611
+      },
+      {
+        "flat": "C/7",
+        "name": "HARUN HASANOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 612
+      },
+      {
+        "flat": "C/8",
+        "name": "TUNCAY DELİGÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 613
+      },
+      {
+        "flat": "C/9",
+        "name": "ŞEYDA NUR ÖZDEMİR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 614
+      },
+      {
+        "flat": "C/10",
+        "name": "MUSTAFA KAÇAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 615
+      },
+      {
+        "flat": "C/11",
+        "name": "MEHMET KARATEPE",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 616
+      },
+      {
+        "flat": "C/12",
+        "name": "YUSUF KAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 617
+      },
+      {
+        "flat": "C/13",
+        "name": "İSMAİL KELEŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 618
+      },
+      {
+        "flat": "C/14",
+        "name": "MEHMET YILDIRIM",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 619
+      },
+      {
+        "flat": "C/15",
+        "name": "FERHAT OKÇU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 620
+      },
+      {
+        "flat": "C/16",
+        "name": "İSA GÜRAY",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 621
+      },
+      {
+        "flat": "C/17",
+        "name": "SATILMIŞ GÖKBAYIR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 622
+      },
+      {
+        "flat": "C/18",
+        "name": "HASAN AYAN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 0,
+        "toplam": 0,
+        "tarih": "10.07.2026",
+        "makbuz": 623
+      },
+      {
+        "flat": "D/1",
+        "name": "KANAN KİBAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 624
+      },
+      {
+        "flat": "D/2",
+        "name": "İRFAN AKBAŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 625
+      },
+      {
+        "flat": "D/3",
+        "name": "MURAT YEŞİLKAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 626
+      },
+      {
+        "flat": "D/4",
+        "name": "HASAN ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 627
+      },
+      {
+        "flat": "D/5",
+        "name": "SATI DURMUŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 628
+      },
+      {
+        "flat": "D/6",
+        "name": "CÜNEYT GÜL",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 629
+      },
+      {
+        "flat": "D/7",
+        "name": "BİLAL YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 630
+      },
+      {
+        "flat": "D/8",
+        "name": "SATILMIŞ YETİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 631
+      },
+      {
+        "flat": "D/9",
+        "name": "SİNAN ARAL",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 632
+      },
+      {
+        "flat": "D/10",
+        "name": "MUSTAFA ARMAĞAN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 633
+      },
+      {
+        "flat": "D/11",
+        "name": "GÜLENDER KELEŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 634
+      },
+      {
+        "flat": "D/12",
+        "name": "İBRAHİM ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 635
+      },
+      {
+        "flat": "D/13",
+        "name": "SERVET DERVİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 636
+      },
+      {
+        "flat": "D/14",
+        "name": "KERİM COŞKUN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 637
+      },
+      {
+        "flat": "D/15",
+        "name": "ASLAN DİRİCAN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 638
+      },
+      {
+        "flat": "D/16",
+        "name": "ŞABAN AKGÜNDÜZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 639
+      },
+      {
+        "flat": "D/17",
+        "name": "HİKMET SANCAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 640
+      },
+      {
+        "flat": "D/18",
+        "name": "TECELLİ KURTOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 641
+      },
+      {
+        "flat": "D/11-A",
+        "name": "SEVCAN ASAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 642
+      },
+      {
+        "flat": "E/1",
+        "name": "FAZLI AKYILDIZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 643
+      },
+      {
+        "flat": "E/2",
+        "name": "NEFİSE VAZVAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 644
+      },
+      {
+        "flat": "E/3",
+        "name": "FAHRETTİN GÜVENDİ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 645
+      },
+      {
+        "flat": "E/4",
+        "name": "MURAT AÇIKGÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 646
+      },
+      {
+        "flat": "E/5",
+        "name": "AHMET YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 647
+      },
+      {
+        "flat": "E/6",
+        "name": "İBRAHİM ÖDEMİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 648
+      },
+      {
+        "flat": "E/7",
+        "name": "ALİ ÖZYILMAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 649
+      },
+      {
+        "flat": "E/8",
+        "name": "HÜSEYİN KANDEMİR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 650
+      },
+      {
+        "flat": "E/9",
+        "name": "HÜSEYİN AKYILDIZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 651
+      },
+      {
+        "flat": "E/10",
+        "name": "MUSTAFA KARALI",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 652
+      },
+      {
+        "flat": "E/11",
+        "name": "İSMAİL KULA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 653
+      },
+      {
+        "flat": "E/12",
+        "name": "YAKUP KARTAL",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 654
+      },
+      {
+        "flat": "E/13",
+        "name": "YÜKSEL ÖKSÜZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 655
+      },
+      {
+        "flat": "E/14",
+        "name": "MUHİTTİN ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 656
+      },
+      {
+        "flat": "E/15",
+        "name": "EMİNE DEMİRÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 657
+      },
+      {
+        "flat": "E/16",
+        "name": "İBRAHİM UÇAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 658
+      },
+      {
+        "flat": "E/17",
+        "name": "MESUT MEMİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 659
+      },
+      {
+        "flat": "E/18",
+        "name": "SATILMIŞ HOTOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 660
+      }
+    ],
+    "TEMMUZ 2026": [
+      {
+        "flat": "C/1",
+        "name": "AYHAN ÖZYILMAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 606
+      },
+      {
+        "flat": "C/2",
+        "name": "OSMAN ÖZTÜRK",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 607
+      },
+      {
+        "flat": "C/3",
+        "name": "FEYZULLAH YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 608
+      },
+      {
+        "flat": "C/4",
+        "name": "İSMAİL ÇAĞLAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 609
+      },
+      {
+        "flat": "C/5",
+        "name": "ARİF KARA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 610
+      },
+      {
+        "flat": "C/6",
+        "name": "EMRE KAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 611
+      },
+      {
+        "flat": "C/7",
+        "name": "HARUN HASANOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 612
+      },
+      {
+        "flat": "C/8",
+        "name": "TUNCAY DELİGÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 613
+      },
+      {
+        "flat": "C/9",
+        "name": "ŞEYDA NUR ÖZDEMİR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 614
+      },
+      {
+        "flat": "C/10",
+        "name": "MUSTAFA KAÇAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 615
+      },
+      {
+        "flat": "C/11",
+        "name": "MEHMET KARATEPE",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 616
+      },
+      {
+        "flat": "C/12",
+        "name": "YUSUF KAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 617
+      },
+      {
+        "flat": "C/13",
+        "name": "İSMAİL KELEŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 618
+      },
+      {
+        "flat": "C/14",
+        "name": "MEHMET YILDIRIM",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 619
+      },
+      {
+        "flat": "C/15",
+        "name": "FERHAT OKÇU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 620
+      },
+      {
+        "flat": "C/16",
+        "name": "İSA GÜRAY",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 621
+      },
+      {
+        "flat": "C/17",
+        "name": "SATILMIŞ GÖKBAYIR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 622
+      },
+      {
+        "flat": "C/18",
+        "name": "HASAN AYAN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 623
+      },
+      {
+        "flat": "D/1",
+        "name": "KANAN KİBAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 624
+      },
+      {
+        "flat": "D/2",
+        "name": "İRFAN AKBAŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 625
+      },
+      {
+        "flat": "D/3",
+        "name": "MURAT YEŞİLKAYA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 626
+      },
+      {
+        "flat": "D/4",
+        "name": "HASAN ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 627
+      },
+      {
+        "flat": "D/5",
+        "name": "SATI DURMUŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 628
+      },
+      {
+        "flat": "D/6",
+        "name": "CÜNEYT GÜL",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 629
+      },
+      {
+        "flat": "D/7",
+        "name": "BİLAL YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 630
+      },
+      {
+        "flat": "D/8",
+        "name": "SATILMIŞ YETİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 631
+      },
+      {
+        "flat": "D/9",
+        "name": "SİNAN ARAL",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 632
+      },
+      {
+        "flat": "D/10",
+        "name": "MUSTAFA ARMAĞAN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 633
+      },
+      {
+        "flat": "D/11",
+        "name": "GÜLENDER KELEŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 634
+      },
+      {
+        "flat": "D/12",
+        "name": "İBRAHİM ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 635
+      },
+      {
+        "flat": "D/13",
+        "name": "SERVET DERVİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 636
+      },
+      {
+        "flat": "D/14",
+        "name": "KERİM COŞKUN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 637
+      },
+      {
+        "flat": "D/15",
+        "name": "ASLAN DİRİCAN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 638
+      },
+      {
+        "flat": "D/16",
+        "name": "ŞABAN AKGÜNDÜZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 639
+      },
+      {
+        "flat": "D/17",
+        "name": "HİKMET SANCAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 640
+      },
+      {
+        "flat": "D/18",
+        "name": "TECELLİ KURTOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 641
+      },
+      {
+        "flat": "D/11-A",
+        "name": "SEVCAN ASAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 642
+      },
+      {
+        "flat": "E/1",
+        "name": "FAZLI AKYILDIZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 643
+      },
+      {
+        "flat": "E/2",
+        "name": "NEFİSE VAZVAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 644
+      },
+      {
+        "flat": "E/3",
+        "name": "FAHRETTİN GÜVENDİ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 645
+      },
+      {
+        "flat": "E/4",
+        "name": "MURAT AÇIKGÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 646
+      },
+      {
+        "flat": "E/5",
+        "name": "AHMET YALÇIN",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 647
+      },
+      {
+        "flat": "E/6",
+        "name": "İBRAHİM ÖDEMİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 648
+      },
+      {
+        "flat": "E/7",
+        "name": "ALİ ÖZYILMAZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 649
+      },
+      {
+        "flat": "E/8",
+        "name": "HÜSEYİN KANDEMİR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 650
+      },
+      {
+        "flat": "E/9",
+        "name": "HÜSEYİN AKYILDIZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 651
+      },
+      {
+        "flat": "E/10",
+        "name": "MUSTAFA KARALI",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 652
+      },
+      {
+        "flat": "E/11",
+        "name": "İSMAİL KULA",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 653
+      },
+      {
+        "flat": "E/12",
+        "name": "YAKUP KARTAL",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 654
+      },
+      {
+        "flat": "E/13",
+        "name": "YÜKSEL ÖKSÜZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 655
+      },
+      {
+        "flat": "E/14",
+        "name": "MUHİTTİN ÇAPAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 656
+      },
+      {
+        "flat": "E/15",
+        "name": "EMİNE DEMİRÖZ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 657
+      },
+      {
+        "flat": "E/16",
+        "name": "İBRAHİM UÇAR",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 658
+      },
+      {
+        "flat": "E/17",
+        "name": "MESUT MEMİŞ",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 659
+      },
+      {
+        "flat": "E/18",
+        "name": "SATILMIŞ HOTOĞLU",
+        "yakit": 0,
+        "genel": 0,
+        "gider": 500,
+        "toplam": 500,
+        "tarih": "10.07.2026",
+        "makbuz": 660
+      }
+    ]
+  }
+}
