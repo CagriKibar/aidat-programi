@@ -1,5 +1,4 @@
 const { app, BrowserWindow, ipcMain, dialog } = require('electron');
-const { autoUpdater } = require('electron-updater');
 const path = require('path');
 const fs = require('fs');
 const XLSX = require('xlsx');
@@ -405,63 +404,73 @@ ipcMain.handle('backup-excel', async () => {
 });
 
 // ===== AUTO-UPDATE =====
-autoUpdater.autoDownload = false;
-autoUpdater.autoInstallOnAppQuit = true;
+const https = require('https');
+const REPO_OWNER = 'CagriKibar';
+const REPO_NAME = 'aidat-programi';
 
-function setupAutoUpdater() {
-  autoUpdater.checkForUpdates().catch(() => {});
+function checkGitHubUpdate() {
+  return new Promise((resolve, reject) => {
+    const opts = {
+      hostname: 'api.github.com',
+      path: `/repos/${REPO_OWNER}/${REPO_NAME}/releases/latest`,
+      headers: { 'User-Agent': 'AidatYonetim/' + app.getVersion() }
+    };
+    https.get(opts, res => {
+      let data = '';
+      res.on('data', c => data += c);
+      res.on('end', () => {
+        try {
+          const json = JSON.parse(data);
+          resolve({ version: (json.tag_name || '').replace(/^v/, ''), url: json.html_url || '', assets: json.assets || [] });
+        } catch (e) { reject(e); }
+      });
+    }).on('error', reject);
+  });
+}
 
-  autoUpdater.on('update-available', (info) => {
-    dialog.showMessageBox(mainWindow, {
+function isNewer(remote, local) {
+  const r = remote.split('.').map(Number);
+  const l = local.split('.').map(Number);
+  for (let i = 0; i < 3; i++) {
+    if ((r[i]||0) > (l[i]||0)) return true;
+    if ((r[i]||0) < (l[i]||0)) return false;
+  }
+  return false;
+}
+
+async function setupAutoUpdater() {
+  try {
+    const current = app.getVersion();
+    const release = await checkGitHubUpdate();
+    if (!release.version || !isNewer(release.version, current)) return;
+
+    const setupAsset = release.assets.find(a => a.name && a.name.endsWith('.exe') && a.name.includes('setup'));
+    const downloadUrl = setupAsset ? setupAsset.browser_download_url : release.url;
+
+    const result = await dialog.showMessageBox(mainWindow, {
       type: 'info',
       title: 'Güncelleme Mevcut',
-      message: `Yeni sürüm mevcut: v${info.version}\nMevcut sürüm: v${app.getVersion()}\n\nŞimdi indirmek ister misiniz?`,
-      buttons: ['İndir ve Kur', 'Daha Sonra'],
+      message: `Yeni sürüm mevcut: v${release.version}\nMevcut sürüm: v${current}\n\nGüncellemek ister misiniz?`,
+      buttons: ['İndir', 'Daha Sonra'],
       defaultId: 0
-    }).then(result => {
-      if (result.response === 0) {
-        mainWindow.webContents.send('update-status', 'İndiriliyor...');
-        autoUpdater.downloadUpdate();
-      }
     });
-  });
 
-  autoUpdater.on('update-not-available', () => {
-    // sessiz — güncelleme yoksa bir şey gösterme
-  });
-
-  autoUpdater.on('download-progress', (progress) => {
-    if (mainWindow) {
-      mainWindow.webContents.send('update-status', `İndiriliyor: %${Math.round(progress.percent)}`);
+    if (result.response === 0) {
+      require('electron').shell.openExternal(downloadUrl);
     }
-  });
-
-  autoUpdater.on('update-downloaded', () => {
-    dialog.showMessageBox(mainWindow, {
-      type: 'info',
-      title: 'Güncelleme Hazır',
-      message: 'Güncelleme indirildi. Uygulamayı yeniden başlatarak güncellemek ister misiniz?',
-      buttons: ['Şimdi Yeniden Başlat', 'Daha Sonra'],
-      defaultId: 0
-    }).then(result => {
-      if (result.response === 0) {
-        autoUpdater.quitAndInstall();
-      }
-    });
-  });
-
-  autoUpdater.on('error', () => {
-    // sessiz — güncelleme hatalarını kullanıcıya gösterme
-  });
+  } catch (e) {
+    // ağ hatası — sessiz
+  }
 }
 
 ipcMain.handle('check-update', async () => {
   try {
-    const result = await autoUpdater.checkForUpdates();
-    if (result && result.updateInfo) {
-      return { available: true, version: result.updateInfo.version };
+    const current = app.getVersion();
+    const release = await checkGitHubUpdate();
+    if (release.version && isNewer(release.version, current)) {
+      return { available: true, version: release.version };
     }
-    return { available: false };
+    return { available: false, current };
   } catch (e) {
     return { available: false, error: e.message };
   }
@@ -472,6 +481,6 @@ ipcMain.handle('get-version', () => app.getVersion());
 app.whenReady().then(() => {
   loadDB();
   createWindow();
-  setTimeout(setupAutoUpdater, 3000);
+  setTimeout(setupAutoUpdater, 2000);
 });
 app.on('window-all-closed', () => { app.quit(); });
