@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
-<title>Sabır Sitesi - Aidat Yönetim</title>
+<title>Aidat Yönetim — kuisoft.com</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Segoe UI',sans-serif;background:#f0f2f5;color:#1a1a2e}
@@ -170,14 +170,16 @@ table tr:hover{background:#f8fafc}
 <div class="panel" id="panel-liste">
   <div class="card">
     <div class="filter-bar no-print">
-      <label style="font-weight:600">Blok:</label>
+      <label style="font-weight:600">Ay:</label>
+      <select id="listMonthFilt" onchange="renderList()"></select>
+      <label style="font-weight:600;margin-left:8px">Blok:</label>
       <select id="blockFilt" onchange="renderList()"><option value="ALL">TÜMÜ</option><option value="C">C Blok</option><option value="D">D Blok</option><option value="E">E Blok</option></select>
       <span style="margin-left:auto;font-size:12px;color:#6b7280" id="listCnt"></span>
-      <button class="btn btn-teal btn-sm" onclick="exportExcel()">Excel (Bu Ay)</button>
+      <button class="btn btn-teal btn-sm" onclick="exportExcel()">Excel (Aktif Ay)</button>
       <button class="btn btn-teal btn-sm" onclick="exportAllExcel()">Excel (Tümü)</button>
     </div>
     <div class="scroll-table">
-      <table><thead><tr><th>No</th><th>Blok/Daire</th><th>Adı Soyadı</th><th>m²</th><th>Yakıt</th><th>Genel</th><th>Gider</th><th>TOPLAM</th><th>Tarih</th><th>Makbuz</th></tr></thead><tbody id="listBody"></tbody><tfoot id="listFoot"></tfoot></table>
+      <table><thead><tr id="listHead"><th>No</th><th>Blok/Daire</th><th>Adı Soyadı</th><th>m²</th><th>Yakıt</th><th>Genel</th><th>Gider</th><th>TOPLAM</th><th>Tarih</th><th>Makbuz</th></tr></thead><tbody id="listBody"></tbody><tfoot id="listFoot"></tfoot></table>
     </div>
   </div>
 </div>
@@ -277,6 +279,11 @@ async function init(){
   const sgAy=document.getElementById('sgAy'),sgFilt=document.getElementById('sgFiltAy');
   ms.forEach(m=>{sgAy.innerHTML+=`<option>${m}</option>`;sgFilt.innerHTML+=`<option>${m}</option>`});
   sgAy.value=curMonth;
+  // Liste ay filtresi
+  const lmf=document.getElementById('listMonthFilt');
+  lmf.innerHTML='<option value="ALL">TÜM AYLAR</option>';
+  ms.forEach(m=>lmf.innerHTML+=`<option>${m}</option>`);
+  lmf.value=curMonth;
   loadUI();renderAll();
 }
 
@@ -495,13 +502,46 @@ function renderCalc(){
 
 /* ===== LİSTE ===== */
 function renderList(){
-  const recs=db.months[curMonth]||[],f=document.getElementById('blockFilt').value;
-  const tb=document.getElementById('listBody'),tf=document.getElementById('listFoot');tb.innerHTML='';tf.innerHTML='';
-  let ty=0,tg=0,tgi=0,tt=0,cnt=0;
-  recs.forEach((r,i)=>{const res=db.residents.find(x=>x.flat===r.flat);const bl=res?res.block:'';if(f!=='ALL'&&bl!==f)return;cnt++;ty+=r.yakit||0;tg+=r.genel||0;tgi+=r.gider||0;tt+=r.toplam||0;
-    tb.innerHTML+=`<tr><td>${i+1}</td><td><b>${r.flat}</b></td><td class="text-left">${esc(r.name)}</td><td>${res?res.m2:109}</td><td class="text-right">${fm(r.yakit)}</td><td class="text-right">${fm(r.genel)}</td><td class="text-right">${fm(r.gider)}</td><td class="text-right font-bold">${fm(r.toplam)}</td><td>${r.tarih||''}</td><td>${r.makbuz}</td></tr>`});
-  tf.innerHTML=`<tr class="total-row"><td colspan="4">TOPLAM (${cnt})</td><td class="text-right">${fm(ty)}</td><td class="text-right">${fm(tg)}</td><td class="text-right">${fm(tgi)}</td><td class="text-right font-bold">${fm(tt)}</td><td colspan="2"></td></tr>`;
-  document.getElementById('listCnt').textContent=cnt+' daire';
+  const mf=document.getElementById('listMonthFilt').value;
+  const bf=document.getElementById('blockFilt').value;
+  const tb=document.getElementById('listBody'),tf=document.getElementById('listFoot'),th=document.getElementById('listHead');
+  tb.innerHTML='';tf.innerHTML='';
+
+  const isAll = mf==='ALL';
+  // Tüm aylar modunda "Ay" kolonunu ekle
+  th.innerHTML = isAll
+    ? '<th>No</th><th>Ay</th><th>Blok/Daire</th><th>Adı Soyadı</th><th>m²</th><th>Yakıt</th><th>Genel</th><th>Gider</th><th>TOPLAM</th><th>Tarih</th><th>Makbuz</th>'
+    : '<th>No</th><th>Blok/Daire</th><th>Adı Soyadı</th><th>m²</th><th>Yakıt</th><th>Genel</th><th>Gider</th><th>TOPLAM</th><th>Tarih</th><th>Makbuz</th>';
+
+  const aylar = isAll ? MONTHS_ORDER : [mf];
+  let ty=0,tg=0,tgi=0,tt=0,cnt=0,no=0;
+
+  aylar.forEach(ay => {
+    const recs = db.months[ay] || [];
+    let ayToplam = 0;
+    recs.forEach(r => {
+      const res = db.residents.find(x => x.flat === r.flat);
+      const bl = res ? res.block : '';
+      if (bf !== 'ALL' && bl !== bf) return;
+      cnt++; no++;
+      ty += r.yakit||0; tg += r.genel||0; tgi += r.gider||0; tt += r.toplam||0;
+      ayToplam += r.toplam||0;
+      if (isAll) {
+        tb.innerHTML += `<tr><td>${no}</td><td style="font-size:11px;white-space:nowrap">${ay}</td><td><b>${r.flat}</b></td><td class="text-left">${esc(r.name)}</td><td>${res?res.m2:109}</td><td class="text-right">${fm(r.yakit)}</td><td class="text-right">${fm(r.genel)}</td><td class="text-right">${fm(r.gider)}</td><td class="text-right font-bold">${fm(r.toplam)}</td><td>${r.tarih||''}</td><td>${r.makbuz}</td></tr>`;
+      } else {
+        tb.innerHTML += `<tr><td>${no}</td><td><b>${r.flat}</b></td><td class="text-left">${esc(r.name)}</td><td>${res?res.m2:109}</td><td class="text-right">${fm(r.yakit)}</td><td class="text-right">${fm(r.genel)}</td><td class="text-right">${fm(r.gider)}</td><td class="text-right font-bold">${fm(r.toplam)}</td><td>${r.tarih||''}</td><td>${r.makbuz}</td></tr>`;
+      }
+    });
+    // Tüm aylar modunda her ayın sonuna ara toplam
+    if (isAll && ayToplam > 0) {
+      const colSpan = 8;
+      tb.innerHTML += `<tr style="background:#f0f4ff;font-weight:600;font-size:11px;color:#1e3a5f"><td></td><td colspan="${colSpan}">${ay} TOPLAMI: ${fm(ayToplam)}</td><td colspan="2"></td></tr>`;
+    }
+  });
+
+  const cs = isAll ? 5 : 4;
+  tf.innerHTML = `<tr class="total-row"><td colspan="${cs}">GENEL TOPLAM (${cnt} kayıt)</td><td class="text-right">${fm(ty)}</td><td class="text-right">${fm(tg)}</td><td class="text-right">${fm(tgi)}</td><td class="text-right font-bold">${fm(tt)}</td><td colspan="2"></td></tr>`;
+  document.getElementById('listCnt').textContent = cnt + ' kayıt' + (isAll ? ' ('+aylar.length+' ay)' : '');
 }
 
 /* ===== BİNA SAKİNLERİ ===== */

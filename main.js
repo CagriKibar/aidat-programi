@@ -122,9 +122,12 @@ function buildDefaultDB() {
 function createWindow() {
   mainWindow = new BrowserWindow({
     width:1250, height:880, minWidth:1000, minHeight:700,
-    title:'Sabır Sitesi - Aidat Yönetim Programı',
+    title:'Aidat Yönetim — kuisoft.com',
+    icon: path.join(__dirname, 'icon.ico'),
+    autoHideMenuBar: true,
     webPreferences:{ preload:path.join(__dirname,'preload.js'), contextIsolation:true, nodeIntegration:false }
   });
+  mainWindow.removeMenu();
   mainWindow.loadFile('index.html');
 }
 
