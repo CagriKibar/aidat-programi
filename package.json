@@ -1,6 +1,6 @@
 {
   "name": "aidat-programi",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Sabır Sitesi C-D-E Blokları Aidat Yönetim Programı - kuisoft.com",
   "main": "main.js",
   "author": "kuisoft.com",
@@ -47,7 +47,7 @@
         {
           "target": "nsis",
           "arch": [
-            "x64"
+            "ia32"
           ]
         }
       ],
@@ -69,7 +69,7 @@
     }
   },
   "devDependencies": {
-    "electron": "^33.4.11",
+    "electron": "^22.3.27",
     "electron-builder": "^26.15.3"
   },
   "dependencies": {
