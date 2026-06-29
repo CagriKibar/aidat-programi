@@ -162,7 +162,7 @@ table tr:hover{background:#f8fafc}
 <div class="panel" id="panel-hesap">
   <div class="card">
     <h3>Aylık Gider Girişi</h3>
-    <div class="form-row"><label>Doğalgaz Faturası (Toplam TL):</label><input type="text" id="inYakit" value="0"></div>
+    <div class="form-row"><label>Yakıt Bedeli (109m² daire başı TL):</label><input type="text" id="inYakit" value="0"></div>
     <div class="form-row"><label>Genel Gider (TL):</label><input type="text" id="inGenel" value="0"></div>
     <div class="form-row"><label>Ödeme Tarihi:</label><input type="date" id="inTarih"></div>
     <div class="gider-section">
@@ -323,7 +323,12 @@ function loadUI(){
   if(db.giderItems&&db.giderItems[curMonth]) giders=JSON.parse(JSON.stringify(db.giderItems[curMonth]));
   else{const ns=recs.filter(r=>r.flat!=='C/18');giders=ns.length>0&&ns[0].gider>0?[{name:'Gider',amount:ns[0].gider}]:[{name:'Gider',amount:400}]}
   renderGiders();
-  if(recs.length>0){document.getElementById('inYakit').value=recs.reduce((s,r)=>s+(r.yakit||0),0);document.getElementById('inGenel').value=recs.reduce((s,r)=>s+(r.genel||0),0)}
+  if(recs.length>0){
+    // 109m² daire başı yakıt değerini bul
+    const ref109=recs.find(r=>{const res=db.residents.find(x=>x.flat===r.flat);return res&&res.m2===109});
+    document.getElementById('inYakit').value=ref109?ref109.yakit:0;
+    document.getElementById('inGenel').value=recs.reduce((s,r)=>s+(r.genel||0),0);
+  }
   loadFaiz();
   // Banka bilgileri
   const si=db.site_info||{};
@@ -551,26 +556,42 @@ function addGider(){giders.push({name:'',amount:0});renderGiders()}
 function totalGider(){return giders.reduce((s,g)=>s+(g.amount||0),0)}
 
 /* ===== HESAPLAMA ===== */
-const TM2=5795;
+const REF_M2=109;
 const MG=[{m2:113,cnt:9},{m2:109,cnt:39},{m2:83,cnt:6},{m2:29,cnt:1}];
-function rndY(m2,ur){return Math.round(ur*m2/5)*5}
+function yakitForM2(m2,refTutar){
+  if(!refTutar)return 0;
+  return Math.round(refTutar*m2/REF_M2/5)*5;
+}
 function fm(v){return '₺'+(v||0).toLocaleString('tr-TR',{minimumFractionDigits:2,maximumFractionDigits:2})}
 
 function calcApply(){
-  const yt=pf('inYakit'),gt=pf('inGenel'),gd=totalGider();
+  const refYakit=pf('inYakit'),gt=pf('inGenel'),gd=totalGider();
   const ti=document.getElementById('inTarih').value;let ts='';
   if(ti){const d=new Date(ti);ts=pad(d.getDate())+'.'+pad(d.getMonth()+1)+'.'+d.getFullYear()}
-  const ur=TM2>0?yt/TM2:0,recs=db.months[curMonth]||[];
+  const recs=db.months[curMonth]||[];
   const gpp=recs.length>0?Math.round(gt/recs.length):0;
-  recs.forEach(r=>{const res=db.residents.find(x=>x.flat===r.flat);const m2=res?res.m2:109;r.yakit=rndY(m2,ur);r.genel=gpp;r.gider=r.flat==='C/18'?0:gd;r.toplam=r.yakit+r.genel+r.gider;if(ts)r.tarih=ts});
+  recs.forEach(r=>{
+    const res=db.residents.find(x=>x.flat===r.flat);
+    const m2=res?res.m2:109;
+    r.yakit=yakitForM2(m2,refYakit);
+    r.genel=gpp;
+    r.gider=r.flat==='C/18'?0:gd;
+    r.toplam=r.yakit+r.genel+r.gider;
+    if(ts)r.tarih=ts;
+  });
   if(!db.giderItems)db.giderItems={};db.giderItems[curMonth]=JSON.parse(JSON.stringify(giders));
   renderAll();toast('Hesaplandı ve '+curMonth+' ayına uygulandı!');
 }
 
 function renderCalc(){
-  const yt=pf('inYakit'),ur=TM2>0?yt/TM2:0,gd=totalGider();
+  const refYakit=pf('inYakit'),gd=totalGider();
   const c=document.getElementById('calcRes');c.innerHTML='';let gy=0;
-  MG.forEach(g=>{const ex=ur*g.m2,rd=rndY(g.m2,ur),gt2=rd*g.cnt;gy+=gt2;c.innerHTML+=`<div class="calc-card"><div class="m2-label">${g.m2} m²</div><div class="count">${g.cnt} daire</div><div class="price">${rd.toLocaleString('tr-TR')} TL</div><div class="exact">Hesaplanan: ${ex.toFixed(2)} TL</div></div>`});
+  MG.forEach(g=>{
+    const rd=yakitForM2(g.m2,refYakit);
+    const exact=refYakit*g.m2/REF_M2;
+    const gt2=rd*g.cnt;gy+=gt2;
+    c.innerHTML+=`<div class="calc-card"><div class="m2-label">${g.m2} m²</div><div class="count">${g.cnt} daire</div><div class="price">${rd.toLocaleString('tr-TR')} TL</div><div class="exact">Hesaplanan: ${exact.toFixed(2)} TL</div></div>`;
+  });
   const ge=pf('inGenel'),tgg=gd*54;
   document.getElementById('sumBar').innerHTML=`<div class="summary-item"><div class="s-label">Yakıt Toplam</div><div class="s-val">${gy.toLocaleString('tr-TR')} TL</div></div><div class="summary-item"><div class="s-label">Gider Toplam</div><div class="s-val">${tgg.toLocaleString('tr-TR')} TL</div></div><div class="summary-item"><div class="s-label">Genel Toplam</div><div class="s-val">${ge.toLocaleString('tr-TR')} TL</div></div><div class="summary-item"><div class="s-label">GENEL TOPLAM</div><div class="s-val">${(gy+tgg+ge).toLocaleString('tr-TR')} TL</div></div>`;
 }
