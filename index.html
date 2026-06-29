@@ -91,7 +91,8 @@ table tr:hover{background:#f8fafc}
 /* ===== DASHBOARD ===== */
 .dash-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .dash-grid .card{margin-bottom:0}
-.dash-stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px}
+.dash-stat-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:14px}
+.dash-stat{flex:1;min-width:160px}
 .dash-stat{background:#fff;border-radius:8px;padding:14px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.06);border-left:4px solid #3b82f6}
 .dash-stat.green{border-left-color:#10b981}.dash-stat.red{border-left-color:#ef4444}.dash-stat.amber{border-left-color:#f59e0b}.dash-stat.purple{border-left-color:#8b5cf6}
 .dash-stat .ds-label{font-size:11px;color:#6b7280;margin-bottom:4px}.dash-stat .ds-val{font-size:20px;font-weight:800;color:#1e3a5f}
@@ -527,7 +528,7 @@ function addSiteGider(){
 
 function delSiteGider(ay,idx){
   if(!confirm('Bu gider silinecek. Emin misiniz?'))return;
-  db.siteGiderleri[ay].splice(idx,1);
+  if(db.siteGiderleri[ay]) db.siteGiderleri[ay].splice(idx,1);
   renderSG();renderDash();toast('Gider silindi!');
 }
 
@@ -540,7 +541,8 @@ function renderSG(){
   aylar.forEach(ay=>{
     (db.siteGiderleri[ay]||[]).forEach((g,i)=>{
       total+=g.tutar||0;cnt++;
-      tb.innerHTML+=`<tr><td>${ay}</td><td class="text-left"><span class="legend-dot" style="background:${CAT_COLORS[g.kategori]||'#9ca3af'};display:inline-block;vertical-align:middle;margin-right:4px"></span>${esc(g.kategori)}</td><td class="text-right font-bold">${fm(g.tutar)}</td><td class="text-left">${esc(g.aciklama||'')}</td><td><button class="btn btn-red btn-sm" onclick="delSiteGider('${ay}',${i})">Sil</button></td></tr>`;
+      const safeAy=esc(ay).replace(/'/g,'&#39;');
+      tb.innerHTML+=`<tr><td>${esc(ay)}</td><td class="text-left"><span class="legend-dot" style="background:${CAT_COLORS[g.kategori]||'#9ca3af'};display:inline-block;vertical-align:middle;margin-right:4px"></span>${esc(g.kategori)}</td><td class="text-right font-bold">${fm(g.tutar)}</td><td class="text-left">${esc(g.aciklama||'')}</td><td><button class="btn btn-red btn-sm" onclick="delSiteGider('${safeAy}',${i})">Sil</button></td></tr>`;
     });
   });
   tf.innerHTML=`<tr class="total-row"><td colspan="2">TOPLAM (${cnt} kalem)</td><td class="text-right">${fm(total)}</td><td colspan="2"></td></tr>`;
@@ -628,10 +630,8 @@ function renderList(){
         tb.innerHTML += `<tr><td>${no}</td><td><b>${r.flat}</b></td><td class="text-left">${esc(r.name)}</td><td>${res?res.m2:109}</td><td class="text-right">${fm(r.yakit)}</td><td class="text-right">${fm(r.genel)}</td><td class="text-right">${fm(r.gider)}</td><td class="text-right font-bold">${fm(r.toplam)}</td><td>${r.tarih||''}</td><td>${r.makbuz}</td></tr>`;
       }
     });
-    // Tüm aylar modunda her ayın sonuna ara toplam
     if (isAll && ayToplam > 0) {
-      const colSpan = 8;
-      tb.innerHTML += `<tr style="background:#f0f4ff;font-weight:600;font-size:11px;color:#1e3a5f"><td></td><td colspan="${colSpan}">${ay} TOPLAMI: ${fm(ayToplam)}</td><td colspan="2"></td></tr>`;
+      tb.innerHTML += `<tr style="background:#f0f4ff;font-weight:600;font-size:11px;color:#1e3a5f"><td></td><td colspan="9">${ay} TOPLAMI: ${fm(ayToplam)}</td><td></td></tr>`;
     }
   });
 
@@ -666,7 +666,9 @@ function mkR(r,mgi){const sp=r.flat==='C/18';const si=db.site_info||{};
   const hesap=si.hesap_sahibi||'HESAP SAHİBİ; SABIR SİTESİ C-D-E BLOKLARI YÖNETİCİLİĞİ';
   const banka=si.banka||'QNB FİNANSBANK';
   const iban=si.iban_no||'TR61 0011 1000 0000 0081 9966 14';
-  let rows='';rows+=`<tr><td class="fl">Yakıt Bedeli:</td><td class="fv">${fm(r.yakit)}</td></tr><tr><td class="fl">Genel:</td><td class="fv">${fm(r.genel)}</td></tr>`;if(sp)rows+=`<tr><td class="fl">Gider:</td><td class="fv">${fm(0)}</td></tr>`;else mgi.forEach(g=>{rows+=`<tr><td class="fl">${esc(g.name||'Gider')}:</td><td class="fv">${fm(g.amount)}</td></tr>`});const gT=sp?0:mgi.reduce((s,g)=>s+(g.amount||0),0),top=(r.yakit||0)+(r.genel||0)+gT;rows+=`<tr class="ftotal"><td class="fl">TOPLAM:</td><td class="fv">${fm(top)}</td></tr>`;return `<div class="receipt"><div class="r-hdr"><div class="r-hdr-left"><div class="r-site">SABIR SİTESİ<br>C-D-E BLOKLARI YÖNETİCİLİĞİ<br>Buğday Pazarı Mah. Menekşe Sk. ÇANKIRI</div></div><div class="r-hdr-right"><div class="r-seri">SERİ-A</div><div class="r-line">Seri No: <span>${r.makbuz}</span></div><div class="r-line">Tarih: <span>${r.tarih||'—'}</span></div></div></div><div class="r-title">ÖDEME MAKBUZU</div><table class="r-fees">${rows}</table><div class="r-owner"><div class="r-own-title">Daire Sahibinin:</div><div class="r-own-row"><span class="r-own-label">Adı Soyadı:</span> <b>${esc(r.name)}</b></div><div class="r-own-row"><span class="r-own-label">Blok/Daire No:</span> <b>${r.flat}</b></div></div><div class="r-footer"><div class="r-warn">SON ÖDEME TARİHİ HER AYIN 10'udur.</div><div>${esc(hesap)}</div><div class="r-iban">${esc(banka)} IBAN; ${esc(iban)}</div><div style="margin-top:2px;font-size:7.5px;color:#aaa">kuisoft.com</div></div></div>`}
+  let rows='';rows+=`<tr><td class="fl">Yakıt Bedeli:</td><td class="fv">${fm(r.yakit)}</td></tr><tr><td class="fl">Genel:</td><td class="fv">${fm(r.genel)}</td></tr>`;if(sp)rows+=`<tr><td class="fl">Gider:</td><td class="fv">${fm(0)}</td></tr>`;else mgi.forEach(g=>{rows+=`<tr><td class="fl">${esc(g.name||'Gider')}:</td><td class="fv">${fm(g.amount||0)}</td></tr>`});
+  const top=r.toplam||0;
+  rows+=`<tr class="ftotal"><td class="fl">TOPLAM:</td><td class="fv">${fm(top)}</td></tr>`;return `<div class="receipt"><div class="r-hdr"><div class="r-hdr-left"><div class="r-site">SABIR SİTESİ<br>C-D-E BLOKLARI YÖNETİCİLİĞİ<br>Buğday Pazarı Mah. Menekşe Sk. ÇANKIRI</div></div><div class="r-hdr-right"><div class="r-seri">SERİ-A</div><div class="r-line">Seri No: <span>${r.makbuz}</span></div><div class="r-line">Tarih: <span>${r.tarih||'—'}</span></div></div></div><div class="r-title">ÖDEME MAKBUZU</div><table class="r-fees">${rows}</table><div class="r-owner"><div class="r-own-title">Daire Sahibinin:</div><div class="r-own-row"><span class="r-own-label">Adı Soyadı:</span> <b>${esc(r.name)}</b></div><div class="r-own-row"><span class="r-own-label">Blok/Daire No:</span> <b>${r.flat}</b></div></div><div class="r-footer"><div class="r-warn">SON ÖDEME TARİHİ HER AYIN 10'udur.</div><div>${esc(hesap)}</div><div class="r-iban">${esc(banka)} IBAN; ${esc(iban)}</div><div style="margin-top:2px;font-size:7.5px;color:#aaa">kuisoft.com</div></div></div>`}
 
 /* ===== EXPORT / SAVE ===== */
 async function saveAll(){if(!db.giderItems)db.giderItems={};db.giderItems[curMonth]=JSON.parse(JSON.stringify(giders));saveFaiz();saveBanka();await window.api.saveData(db);toast('Kaydedildi!')}

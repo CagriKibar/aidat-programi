@@ -175,10 +175,10 @@ ipcMain.handle('export-excel', async (_, monthName) => {
     const res = db.residents.find(x => x.flat === r.flat);
     rows.push([i+1, r.name, r.flat, res?res.m2:109, r.yakit, r.genel, r.gider, r.toplam, r.tarih, r.makbuz]);
   });
-  const totY = records.reduce((s,r)=>s+r.yakit,0);
-  const totG = records.reduce((s,r)=>s+r.genel,0);
-  const totGi = records.reduce((s,r)=>s+r.gider,0);
-  const totT = records.reduce((s,r)=>s+r.toplam,0);
+  const totY = records.reduce((s,r)=>s+(r.yakit||0),0);
+  const totG = records.reduce((s,r)=>s+(r.genel||0),0);
+  const totGi = records.reduce((s,r)=>s+(r.gider||0),0);
+  const totT = records.reduce((s,r)=>s+(r.toplam||0),0);
   rows.push(['TOPLAM','','','',totY,totG,totGi,totT,'','']);
   const ws1 = XLSX.utils.aoa_to_sheet(rows);
   ws1['!cols'] = [{wch:6},{wch:22},{wch:12},{wch:6},{wch:14},{wch:10},{wch:10},{wch:14},{wch:12},{wch:10}];
@@ -251,12 +251,11 @@ ipcMain.handle('export-word', async (_, monthName, blockFilter) => {
 
   function buildReceiptElements(r) {
     const isSp = r.flat === 'C/18';
-    const gidTotal = isSp ? 0 : giderItems.reduce((s,g) => s + (g.amount||0), 0);
-    const toplam = (r.yakit||0) + (r.genel||0) + gidTotal;
+    const toplam = r.toplam || 0;
 
     const feeRows = [];
-    feeRows.push({label:'Yakıt Bedeli:', val: fmMoney(r.yakit)});
-    feeRows.push({label:'Genel:', val: fmMoney(r.genel)});
+    feeRows.push({label:'Yakıt Bedeli:', val: fmMoney(r.yakit||0)});
+    feeRows.push({label:'Genel:', val: fmMoney(r.genel||0)});
     if (isSp) {
       feeRows.push({label:'Gider:', val: fmMoney(0)});
     } else {
