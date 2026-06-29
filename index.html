@@ -124,6 +124,7 @@ table tr:hover{background:#f8fafc}
   <h1>SABIR SİTESİ C-D-E BLOKLARI — AİDAT YÖNETİM</h1>
   <div class="topbar-r">
     <label>AKTİF AY:</label><select id="monthSel"></select>
+    <button class="btn btn-blue btn-sm" onclick="addNewMonth()">+ Yeni Ay</button>
     <button class="btn btn-green" onclick="saveAll()">Kaydet</button>
     <button class="btn btn-amber" onclick="backupData()">Yedekle (JSON)</button>
     <button class="btn btn-amber" onclick="backupExcel()">Yedekle (Excel)</button>
@@ -279,9 +280,43 @@ table tr:hover{background:#f8fafc}
 
 <script>
 let db=null,curMonth='',giders=[{name:'Gider',amount:400}];
-const MMAP={'TEMMUZ 2025':{m:'07',y:'2025'},'AĞUSTOS 2025':{m:'08',y:'2025'},'EYLÜL 2025':{m:'09',y:'2025'},'EKİM 2025':{m:'10',y:'2025'},'kasım 2025':{m:'11',y:'2025'},'ARALIK 2025':{m:'12',y:'2025'},'OCAK 2026':{m:'01',y:'2026'},'ŞUBAT 2026':{m:'02',y:'2026'},'Mart 2026':{m:'03',y:'2026'},'nisan 2026':{m:'04',y:'2026'},'mayıs 2026':{m:'05',y:'2026'},'HAZİRAN 2026':{m:'06',y:'2026'},'TEMMUZ 2026':{m:'07',y:'2026'}};
-const MONTHS_ORDER=Object.keys(MMAP);
-const SHORT_MONTHS=['Tem25','Ağu25','Eyl25','Eki25','Kas25','Ara25','Oca26','Şub26','Mar26','Nis26','May26','Haz26','Tem26'];
+
+const AY_ISIMLERI=['OCAK','ŞUBAT','MART','NİSAN','MAYIS','HAZİRAN','TEMMUZ','AĞUSTOS','EYLÜL','EKİM','KASIM','ARALIK'];
+const AY_KISA=['Oca','Şub','Mar','Nis','May','Haz','Tem','Ağu','Eyl','Eki','Kas','Ara'];
+
+function parseMonthName(name){
+  const upper=name.toUpperCase().replace('İ','İ');
+  const parts=name.trim().split(/\s+/);
+  if(parts.length<2)return null;
+  const yil=parseInt(parts[parts.length-1]);
+  const ayStr=parts.slice(0,-1).join(' ').toUpperCase().replace('İ','İ');
+  const ayMap={'OCAK':1,'ŞUBAT':2,'MART':3,'NİSAN':4,'NISAN':4,'MAYIS':5,'HAZİRAN':6,'HAZIRAN':6,
+    'TEMMUZ':7,'AĞUSTOS':8,'AGUSTOS':8,'EYLÜL':9,'EYLUL':9,'EKİM':10,'EKIM':10,
+    'KASIM':11,'ARALIK':12,'KASIM':11};
+  const m=ayMap[ayStr];
+  if(!m||!yil)return null;
+  return {m:String(m).padStart(2,'0'),y:String(yil),mi:m};
+}
+
+function getMonthsOrder(){return Object.keys(db.months);}
+
+function shortMonth(name){
+  const p=parseMonthName(name);
+  if(!p)return name.substring(0,5);
+  return AY_KISA[p.mi-1]+(p.y.length===4?p.y.substring(2):p.y);
+}
+
+function getNextMonthName(){
+  const ms=getMonthsOrder();
+  if(ms.length===0)return AY_ISIMLERI[new Date().getMonth()]+' '+new Date().getFullYear();
+  const last=ms[ms.length-1];
+  const p=parseMonthName(last);
+  if(!p)return 'OCAK 2027';
+  let nm=p.mi,ny=parseInt(p.y);
+  nm++;if(nm>12){nm=1;ny++;}
+  return AY_ISIMLERI[nm-1]+' '+ny;
+}
+
 const CAT_COLORS={'Elektrik':'#f59e0b','Su':'#3b82f6','Doğalgaz':'#ef4444','Temizlik':'#10b981','Asansör Bakım':'#8b5cf6','Arıza/Tamir':'#ec4899','Sigorta':'#6366f1','Kapıcı/Personel':'#14b8a6','Bahçe/Peyzaj':'#84cc16','Diğer':'#9ca3af'};
 
 async function init(){
@@ -293,33 +328,56 @@ async function init(){
   if(!db.site_info.iban_no) db.site_info.iban_no='TR61 0011 1000 0000 0081 9966 14';
   if(!db.site_info.hesap_sahibi) db.site_info.hesap_sahibi='HESAP SAHİBİ; SABIR SİTESİ C-D-E BLOKLARI YÖNETİCİLİĞİ';
   if(!db.faiz) db.faiz={bakiye:0,oran:0};
-  const sel=document.getElementById('monthSel');
   const ms=Object.keys(db.months);
-  ms.forEach(m=>{const o=document.createElement('option');o.value=m;o.textContent=m;sel.appendChild(o)});
   curMonth=ms.length>=2?ms[ms.length-2]:ms[0];
+  document.getElementById('monthSel').addEventListener('change',function(){curMonth=this.value;loadUI();renderAll()});
+  refreshMonthSelectors();
+  loadUI();renderAll();
+}
+
+function refreshMonthSelectors(){
+  const ms=getMonthsOrder();
+  // Üst bar ay seçici
+  const sel=document.getElementById('monthSel');
+  sel.innerHTML='';ms.forEach(m=>{sel.innerHTML+=`<option>${m}</option>`});
   sel.value=curMonth;
-  sel.addEventListener('change',()=>{curMonth=sel.value;loadUI();renderAll()});
-  // Populate SG month selectors
+  // Site giderleri
   const sgAy=document.getElementById('sgAy'),sgFilt=document.getElementById('sgFiltAy');
+  sgAy.innerHTML='';sgFilt.innerHTML='<option value="ALL">Tüm Aylar</option>';
   ms.forEach(m=>{sgAy.innerHTML+=`<option>${m}</option>`;sgFilt.innerHTML+=`<option>${m}</option>`});
   sgAy.value=curMonth;
-  // Liste ay filtresi
+  // Liste
   const lmf=document.getElementById('listMonthFilt');
   lmf.innerHTML='<option value="ALL">TÜM AYLAR</option>';
   ms.forEach(m=>lmf.innerHTML+=`<option>${m}</option>`);
-  lmf.value=curMonth;
-  // Makbuz ay filtresi
+  if(ms.includes(lmf.value)){}else lmf.value=curMonth;
+  // Makbuz
   const mmf=document.getElementById('makMonthFilt');
-  ms.forEach(m=>mmf.innerHTML+=`<option>${m}</option>`);
-  mmf.value=curMonth;
+  mmf.innerHTML='';ms.forEach(m=>mmf.innerHTML+=`<option>${m}</option>`);
+  if(ms.includes(mmf.value)){}else mmf.value=curMonth;
+}
+
+function addNewMonth(){
+  const nextName=getNextMonthName();
+  if(db.months[nextName]){toast(nextName+' zaten mevcut!');return}
+  const lastMonth=getMonthsOrder();
+  const lastRecs=lastMonth.length>0?db.months[lastMonth[lastMonth.length-1]]:[];
+  const maxMakbuz=lastRecs.reduce((mx,r)=>Math.max(mx,r.makbuz||0),0);
+  db.months[nextName]=db.residents.map((r,i)=>({
+    flat:r.flat, name:r.name, yakit:0, genel:0, gider:0, toplam:0,
+    tarih:'', makbuz:maxMakbuz+i+1
+  }));
+  curMonth=nextName;
+  refreshMonthSelectors();
   loadUI();renderAll();
+  toast(nextName+' eklendi!');
 }
 
 function renderAll(){renderDash();renderCalc();renderList();renderMak();renderSakin();renderSG()}
 
 function loadUI(){
   const recs=db.months[curMonth]||[];
-  const info=MMAP[curMonth];
+  const info=parseMonthName(curMonth);
   if(info) document.getElementById('inTarih').value=info.y+'-'+info.m+'-10';
   if(db.giderItems&&db.giderItems[curMonth]) giders=JSON.parse(JSON.stringify(db.giderItems[curMonth]));
   else{const ns=recs.filter(r=>r.flat!=='C/18');giders=ns.length>0&&ns[0].gider>0?[{name:'Gider',amount:ns[0].gider}]:[{name:'Gider',amount:400}]}
@@ -414,25 +472,26 @@ function drawBarChart(){
   ctx.clearRect(0,0,W,H);
   const pad={t:20,b:50,l:60,r:20},cw=W-pad.l-pad.r,ch=H-pad.t-pad.b;
   const gelirArr=[],giderArr=[];
-  MONTHS_ORDER.forEach(m=>{
+  const MO=getMonthsOrder();
+  MO.forEach(m=>{
     gelirArr.push((db.months[m]||[]).reduce((s,r)=>s+(r.toplam||0),0));
     giderArr.push((db.siteGiderleri[m]||[]).reduce((s,g)=>s+(g.tutar||0),0));
   });
   const maxV=Math.max(...gelirArr,...giderArr,1);
-  const barW=cw/MONTHS_ORDER.length/2.8;
+  const barW=cw/MO.length/2.8;
   ctx.font='10px Segoe UI';ctx.fillStyle='#6b7280';ctx.textAlign='right';
   for(let i=0;i<=4;i++){
     const y=pad.t+ch-ch*i/4,v=Math.round(maxV*i/4);
     ctx.fillText(fmShort(v),pad.l-8,y+3);
     ctx.strokeStyle='#e5e7eb';ctx.beginPath();ctx.moveTo(pad.l,y);ctx.lineTo(W-pad.r,y);ctx.stroke();
   }
-  MONTHS_ORDER.forEach((m,i)=>{
-    const x=pad.l+i*(cw/MONTHS_ORDER.length)+cw/MONTHS_ORDER.length/2;
+  MO.forEach((m,i)=>{
+    const x=pad.l+i*(cw/MO.length)+cw/MO.length/2;
     const h1=gelirArr[i]/maxV*ch,h2=giderArr[i]/maxV*ch;
     ctx.fillStyle='#10b981';ctx.fillRect(x-barW-1,pad.t+ch-h1,barW,h1);
     ctx.fillStyle='#ef4444';ctx.fillRect(x+1,pad.t+ch-h2,barW,h2);
     ctx.fillStyle='#6b7280';ctx.textAlign='center';ctx.font='9px Segoe UI';
-    ctx.save();ctx.translate(x,H-8);ctx.rotate(-0.5);ctx.fillText(SHORT_MONTHS[i],0,0);ctx.restore();
+    ctx.save();ctx.translate(x,H-8);ctx.rotate(-0.5);ctx.fillText(shortMonth(m),0,0);ctx.restore();
   });
   ctx.fillStyle='#10b981';ctx.fillRect(pad.l,H-16,10,10);ctx.fillStyle='#374151';ctx.textAlign='left';ctx.font='10px Segoe UI';ctx.fillText('Gelir',pad.l+14,H-7);
   ctx.fillStyle='#ef4444';ctx.fillRect(pad.l+60,H-16,10,10);ctx.fillStyle='#374151';ctx.fillText('Site Gideri',pad.l+74,H-7);
@@ -474,28 +533,30 @@ function drawLineChart(){
   const catArr=[...cats];
   if(catArr.length===0){ctx.fillStyle='#9ca3af';ctx.font='13px Segoe UI';ctx.textAlign='center';ctx.fillText('Henüz site gideri girilmemiş',W/2,H/2);document.getElementById('lineLegend').innerHTML='';return}
   const data={};
-  catArr.forEach(c=>{data[c]=MONTHS_ORDER.map(m=>(db.siteGiderleri[m]||[]).filter(g=>g.kategori===c).reduce((s,g)=>s+(g.tutar||0),0))});
-  let maxV=0;MONTHS_ORDER.forEach((_,i)=>{catArr.forEach(c=>{if(data[c][i]>maxV)maxV=data[c][i]})});
+  const MO2=getMonthsOrder();
+  catArr.forEach(c=>{data[c]=MO2.map(m=>(db.siteGiderleri[m]||[]).filter(g=>g.kategori===c).reduce((s,g)=>s+(g.tutar||0),0))});
+  let maxV=0;MO2.forEach((_,i)=>{catArr.forEach(c=>{if(data[c][i]>maxV)maxV=data[c][i]})});
   if(maxV===0)maxV=1;
   ctx.font='9px Segoe UI';ctx.fillStyle='#6b7280';ctx.textAlign='right';
   for(let i=0;i<=4;i++){const y=pad.t+ch-ch*i/4;ctx.fillText(fmShort(Math.round(maxV*i/4)),pad.l-6,y+3);ctx.strokeStyle='#e5e7eb';ctx.beginPath();ctx.moveTo(pad.l,y);ctx.lineTo(W-pad.r,y);ctx.stroke()}
+  const xDiv=Math.max(MO2.length-1,1);
   catArr.forEach(c=>{
     ctx.strokeStyle=CAT_COLORS[c]||'#9ca3af';ctx.lineWidth=2;ctx.beginPath();
     data[c].forEach((v,i)=>{
-      const x=pad.l+i*(cw/(MONTHS_ORDER.length-1)),y=pad.t+ch-v/maxV*ch;
+      const x=pad.l+i*(cw/xDiv),y=pad.t+ch-v/maxV*ch;
       i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);
     });ctx.stroke();
-    data[c].forEach((v,i)=>{if(v>0){const x=pad.l+i*(cw/(MONTHS_ORDER.length-1)),y=pad.t+ch-v/maxV*ch;ctx.fillStyle=CAT_COLORS[c]||'#9ca3af';ctx.beginPath();ctx.arc(x,y,3,0,Math.PI*2);ctx.fill()}});
+    data[c].forEach((v,i)=>{if(v>0){const x=pad.l+i*(cw/xDiv),y=pad.t+ch-v/maxV*ch;ctx.fillStyle=CAT_COLORS[c]||'#9ca3af';ctx.beginPath();ctx.arc(x,y,3,0,Math.PI*2);ctx.fill()}});
   });
   ctx.fillStyle='#6b7280';ctx.textAlign='center';ctx.font='8px Segoe UI';
-  MONTHS_ORDER.forEach((m,i)=>{const x=pad.l+i*(cw/(MONTHS_ORDER.length-1));ctx.save();ctx.translate(x,H-8);ctx.rotate(-0.5);ctx.fillText(SHORT_MONTHS[i],0,0);ctx.restore()});
+  MO2.forEach((m,i)=>{const x=pad.l+i*(cw/xDiv);ctx.save();ctx.translate(x,H-8);ctx.rotate(-0.5);ctx.fillText(shortMonth(m),0,0);ctx.restore()});
   document.getElementById('lineLegend').innerHTML=catArr.map(c=>`<div class="legend-item"><span class="legend-dot" style="background:${CAT_COLORS[c]||'#9ca3af'}"></span>${c}</div>`).join('');
 }
 
 function drawCatTable(){
   const ct=document.getElementById('catTable');
   const catTotals={};
-  MONTHS_ORDER.forEach(m=>{(db.siteGiderleri[m]||[]).forEach(g=>{
+  getMonthsOrder().forEach(m=>{(db.siteGiderleri[m]||[]).forEach(g=>{
     if(!catTotals[g.kategori])catTotals[g.kategori]={total:0,months:{}};
     catTotals[g.kategori].total+=(g.tutar||0);
     catTotals[g.kategori].months[m]=(catTotals[g.kategori].months[m]||0)+(g.tutar||0);
@@ -537,7 +598,7 @@ function renderSG(){
   const tb=document.getElementById('sgBody'),tf=document.getElementById('sgFoot');
   tb.innerHTML='';tf.innerHTML='';
   let total=0,cnt=0;
-  const aylar=filt==='ALL'?MONTHS_ORDER:[filt];
+  const aylar=filt==='ALL'?getMonthsOrder():[filt];
   aylar.forEach(ay=>{
     (db.siteGiderleri[ay]||[]).forEach((g,i)=>{
       total+=g.tutar||0;cnt++;
@@ -611,7 +672,7 @@ function renderList(){
     ? '<th>No</th><th>Ay</th><th>Blok/Daire</th><th>Adı Soyadı</th><th>m²</th><th>Yakıt</th><th>Genel</th><th>Gider</th><th>TOPLAM</th><th>Tarih</th><th>Makbuz</th>'
     : '<th>No</th><th>Blok/Daire</th><th>Adı Soyadı</th><th>m²</th><th>Yakıt</th><th>Genel</th><th>Gider</th><th>TOPLAM</th><th>Tarih</th><th>Makbuz</th>';
 
-  const aylar = isAll ? MONTHS_ORDER : [mf];
+  const aylar = isAll ? getMonthsOrder() : [mf];
   let ty=0,tg=0,tgi=0,tt=0,cnt=0,no=0;
 
   aylar.forEach(ay => {
